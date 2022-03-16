@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-incr",
-  "version": "0.0.6",
+  "version": "0.0.0",
   "description": "Incremental statistics.",
   "license": "Apache-2.0",
   "author": {
@@ -178,6 +178,7 @@
     "@stdlib/random-base-normal": "^0.0.x",
     "@stdlib/random-base-randu": "^0.0.x",
     "@stdlib/stats-base-dists-t-quantile": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/utils-copy": "^0.0.x",
     "@stdlib/utils-define-read-only-accessor": "^0.0.x",
     "@stdlib/utils-keys": "^0.0.x",
