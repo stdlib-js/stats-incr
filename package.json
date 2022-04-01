@@ -1,0 +1,35 @@
+{
+  "name": "@stdlib/stats-incr",
+  "version": "0.0.0",
+  "description": "Incremental statistics.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./mod.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/stats-incr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "standard",
+    "library",
+    "std",
+    "lib",
+    "mathematics",
+    "math",
+    "statistics",
+    "stats",
+    "incr",
+    "incremental",
+    "accumulator"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
