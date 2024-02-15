@@ -35,32 +35,38 @@ limitations under the License.
 
 > Incremental statistics.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-incr
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var ns = require( '@stdlib/stats-incr' );
+ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var ns = require( 'path/to/vendor/umd/stats-incr/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.ns;
+})();
+</script>
 ```
 
 #### ns
@@ -187,11 +193,21 @@ var incr = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var getKeys = require( '@stdlib/utils-keys' );
-var ns = require( '@stdlib/stats-incr' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 console.log( getKeys( ns ) );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -280,193 +296,193 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/incr/apcorr]: https://github.com/stdlib-js/stats-incr-apcorr
+[@stdlib/stats/incr/apcorr]: https://github.com/stdlib-js/stats-incr-apcorr/tree/umd
 
-[@stdlib/stats/incr/count]: https://github.com/stdlib-js/stats-incr-count
+[@stdlib/stats/incr/count]: https://github.com/stdlib-js/stats-incr-count/tree/umd
 
-[@stdlib/stats/incr/covariance]: https://github.com/stdlib-js/stats-incr-covariance
+[@stdlib/stats/incr/covariance]: https://github.com/stdlib-js/stats-incr-covariance/tree/umd
 
-[@stdlib/stats/incr/covmat]: https://github.com/stdlib-js/stats-incr-covmat
+[@stdlib/stats/incr/covmat]: https://github.com/stdlib-js/stats-incr-covmat/tree/umd
 
-[@stdlib/stats/incr/cv]: https://github.com/stdlib-js/stats-incr-cv
+[@stdlib/stats/incr/cv]: https://github.com/stdlib-js/stats-incr-cv/tree/umd
 
-[@stdlib/stats/incr/ewmean]: https://github.com/stdlib-js/stats-incr-ewmean
+[@stdlib/stats/incr/ewmean]: https://github.com/stdlib-js/stats-incr-ewmean/tree/umd
 
-[@stdlib/stats/incr/ewstdev]: https://github.com/stdlib-js/stats-incr-ewstdev
+[@stdlib/stats/incr/ewstdev]: https://github.com/stdlib-js/stats-incr-ewstdev/tree/umd
 
-[@stdlib/stats/incr/ewvariance]: https://github.com/stdlib-js/stats-incr-ewvariance
+[@stdlib/stats/incr/ewvariance]: https://github.com/stdlib-js/stats-incr-ewvariance/tree/umd
 
-[@stdlib/stats/incr/gmean]: https://github.com/stdlib-js/stats-incr-gmean
+[@stdlib/stats/incr/gmean]: https://github.com/stdlib-js/stats-incr-gmean/tree/umd
 
-[@stdlib/stats/incr/grubbs]: https://github.com/stdlib-js/stats-incr-grubbs
+[@stdlib/stats/incr/grubbs]: https://github.com/stdlib-js/stats-incr-grubbs/tree/umd
 
-[@stdlib/stats/incr/hmean]: https://github.com/stdlib-js/stats-incr-hmean
+[@stdlib/stats/incr/hmean]: https://github.com/stdlib-js/stats-incr-hmean/tree/umd
 
-[@stdlib/stats/incr/kurtosis]: https://github.com/stdlib-js/stats-incr-kurtosis
+[@stdlib/stats/incr/kurtosis]: https://github.com/stdlib-js/stats-incr-kurtosis/tree/umd
 
-[@stdlib/stats/incr/maape]: https://github.com/stdlib-js/stats-incr-maape
+[@stdlib/stats/incr/maape]: https://github.com/stdlib-js/stats-incr-maape/tree/umd
 
-[@stdlib/stats/incr/mae]: https://github.com/stdlib-js/stats-incr-mae
+[@stdlib/stats/incr/mae]: https://github.com/stdlib-js/stats-incr-mae/tree/umd
 
-[@stdlib/stats/incr/mapcorr]: https://github.com/stdlib-js/stats-incr-mapcorr
+[@stdlib/stats/incr/mapcorr]: https://github.com/stdlib-js/stats-incr-mapcorr/tree/umd
 
-[@stdlib/stats/incr/mape]: https://github.com/stdlib-js/stats-incr-mape
+[@stdlib/stats/incr/mape]: https://github.com/stdlib-js/stats-incr-mape/tree/umd
 
-[@stdlib/stats/incr/max]: https://github.com/stdlib-js/stats-incr-max
+[@stdlib/stats/incr/max]: https://github.com/stdlib-js/stats-incr-max/tree/umd
 
-[@stdlib/stats/incr/maxabs]: https://github.com/stdlib-js/stats-incr-maxabs
+[@stdlib/stats/incr/maxabs]: https://github.com/stdlib-js/stats-incr-maxabs/tree/umd
 
-[@stdlib/stats/incr/mcovariance]: https://github.com/stdlib-js/stats-incr-mcovariance
+[@stdlib/stats/incr/mcovariance]: https://github.com/stdlib-js/stats-incr-mcovariance/tree/umd
 
-[@stdlib/stats/incr/mcv]: https://github.com/stdlib-js/stats-incr-mcv
+[@stdlib/stats/incr/mcv]: https://github.com/stdlib-js/stats-incr-mcv/tree/umd
 
-[@stdlib/stats/incr/mda]: https://github.com/stdlib-js/stats-incr-mda
+[@stdlib/stats/incr/mda]: https://github.com/stdlib-js/stats-incr-mda/tree/umd
 
-[@stdlib/stats/incr/me]: https://github.com/stdlib-js/stats-incr-me
+[@stdlib/stats/incr/me]: https://github.com/stdlib-js/stats-incr-me/tree/umd
 
-[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean/tree/umd
 
-[@stdlib/stats/incr/meanabs]: https://github.com/stdlib-js/stats-incr-meanabs
+[@stdlib/stats/incr/meanabs]: https://github.com/stdlib-js/stats-incr-meanabs/tree/umd
 
-[@stdlib/stats/incr/meanabs2]: https://github.com/stdlib-js/stats-incr-meanabs2
+[@stdlib/stats/incr/meanabs2]: https://github.com/stdlib-js/stats-incr-meanabs2/tree/umd
 
-[@stdlib/stats/incr/meanstdev]: https://github.com/stdlib-js/stats-incr-meanstdev
+[@stdlib/stats/incr/meanstdev]: https://github.com/stdlib-js/stats-incr-meanstdev/tree/umd
 
-[@stdlib/stats/incr/meanvar]: https://github.com/stdlib-js/stats-incr-meanvar
+[@stdlib/stats/incr/meanvar]: https://github.com/stdlib-js/stats-incr-meanvar/tree/umd
 
-[@stdlib/stats/incr/mgmean]: https://github.com/stdlib-js/stats-incr-mgmean
+[@stdlib/stats/incr/mgmean]: https://github.com/stdlib-js/stats-incr-mgmean/tree/umd
 
-[@stdlib/stats/incr/mgrubbs]: https://github.com/stdlib-js/stats-incr-mgrubbs
+[@stdlib/stats/incr/mgrubbs]: https://github.com/stdlib-js/stats-incr-mgrubbs/tree/umd
 
-[@stdlib/stats/incr/mhmean]: https://github.com/stdlib-js/stats-incr-mhmean
+[@stdlib/stats/incr/mhmean]: https://github.com/stdlib-js/stats-incr-mhmean/tree/umd
 
-[@stdlib/stats/incr/midrange]: https://github.com/stdlib-js/stats-incr-midrange
+[@stdlib/stats/incr/midrange]: https://github.com/stdlib-js/stats-incr-midrange/tree/umd
 
-[@stdlib/stats/incr/min]: https://github.com/stdlib-js/stats-incr-min
+[@stdlib/stats/incr/min]: https://github.com/stdlib-js/stats-incr-min/tree/umd
 
-[@stdlib/stats/incr/minabs]: https://github.com/stdlib-js/stats-incr-minabs
+[@stdlib/stats/incr/minabs]: https://github.com/stdlib-js/stats-incr-minabs/tree/umd
 
-[@stdlib/stats/incr/minmax]: https://github.com/stdlib-js/stats-incr-minmax
+[@stdlib/stats/incr/minmax]: https://github.com/stdlib-js/stats-incr-minmax/tree/umd
 
-[@stdlib/stats/incr/minmaxabs]: https://github.com/stdlib-js/stats-incr-minmaxabs
+[@stdlib/stats/incr/minmaxabs]: https://github.com/stdlib-js/stats-incr-minmaxabs/tree/umd
 
-[@stdlib/stats/incr/mmaape]: https://github.com/stdlib-js/stats-incr-mmaape
+[@stdlib/stats/incr/mmaape]: https://github.com/stdlib-js/stats-incr-mmaape/tree/umd
 
-[@stdlib/stats/incr/mmae]: https://github.com/stdlib-js/stats-incr-mmae
+[@stdlib/stats/incr/mmae]: https://github.com/stdlib-js/stats-incr-mmae/tree/umd
 
-[@stdlib/stats/incr/mmape]: https://github.com/stdlib-js/stats-incr-mmape
+[@stdlib/stats/incr/mmape]: https://github.com/stdlib-js/stats-incr-mmape/tree/umd
 
-[@stdlib/stats/incr/mmax]: https://github.com/stdlib-js/stats-incr-mmax
+[@stdlib/stats/incr/mmax]: https://github.com/stdlib-js/stats-incr-mmax/tree/umd
 
-[@stdlib/stats/incr/mmaxabs]: https://github.com/stdlib-js/stats-incr-mmaxabs
+[@stdlib/stats/incr/mmaxabs]: https://github.com/stdlib-js/stats-incr-mmaxabs/tree/umd
 
-[@stdlib/stats/incr/mmda]: https://github.com/stdlib-js/stats-incr-mmda
+[@stdlib/stats/incr/mmda]: https://github.com/stdlib-js/stats-incr-mmda/tree/umd
 
-[@stdlib/stats/incr/mme]: https://github.com/stdlib-js/stats-incr-mme
+[@stdlib/stats/incr/mme]: https://github.com/stdlib-js/stats-incr-mme/tree/umd
 
-[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats-incr-mmean
+[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats-incr-mmean/tree/umd
 
-[@stdlib/stats/incr/mmeanabs]: https://github.com/stdlib-js/stats-incr-mmeanabs
+[@stdlib/stats/incr/mmeanabs]: https://github.com/stdlib-js/stats-incr-mmeanabs/tree/umd
 
-[@stdlib/stats/incr/mmeanabs2]: https://github.com/stdlib-js/stats-incr-mmeanabs2
+[@stdlib/stats/incr/mmeanabs2]: https://github.com/stdlib-js/stats-incr-mmeanabs2/tree/umd
 
-[@stdlib/stats/incr/mmeanstdev]: https://github.com/stdlib-js/stats-incr-mmeanstdev
+[@stdlib/stats/incr/mmeanstdev]: https://github.com/stdlib-js/stats-incr-mmeanstdev/tree/umd
 
-[@stdlib/stats/incr/mmeanvar]: https://github.com/stdlib-js/stats-incr-mmeanvar
+[@stdlib/stats/incr/mmeanvar]: https://github.com/stdlib-js/stats-incr-mmeanvar/tree/umd
 
-[@stdlib/stats/incr/mmidrange]: https://github.com/stdlib-js/stats-incr-mmidrange
+[@stdlib/stats/incr/mmidrange]: https://github.com/stdlib-js/stats-incr-mmidrange/tree/umd
 
-[@stdlib/stats/incr/mmin]: https://github.com/stdlib-js/stats-incr-mmin
+[@stdlib/stats/incr/mmin]: https://github.com/stdlib-js/stats-incr-mmin/tree/umd
 
-[@stdlib/stats/incr/mminabs]: https://github.com/stdlib-js/stats-incr-mminabs
+[@stdlib/stats/incr/mminabs]: https://github.com/stdlib-js/stats-incr-mminabs/tree/umd
 
-[@stdlib/stats/incr/mminmax]: https://github.com/stdlib-js/stats-incr-mminmax
+[@stdlib/stats/incr/mminmax]: https://github.com/stdlib-js/stats-incr-mminmax/tree/umd
 
-[@stdlib/stats/incr/mminmaxabs]: https://github.com/stdlib-js/stats-incr-mminmaxabs
+[@stdlib/stats/incr/mminmaxabs]: https://github.com/stdlib-js/stats-incr-mminmaxabs/tree/umd
 
-[@stdlib/stats/incr/mmpe]: https://github.com/stdlib-js/stats-incr-mmpe
+[@stdlib/stats/incr/mmpe]: https://github.com/stdlib-js/stats-incr-mmpe/tree/umd
 
-[@stdlib/stats/incr/mmse]: https://github.com/stdlib-js/stats-incr-mmse
+[@stdlib/stats/incr/mmse]: https://github.com/stdlib-js/stats-incr-mmse/tree/umd
 
-[@stdlib/stats/incr/mpcorr]: https://github.com/stdlib-js/stats-incr-mpcorr
+[@stdlib/stats/incr/mpcorr]: https://github.com/stdlib-js/stats-incr-mpcorr/tree/umd
 
-[@stdlib/stats/incr/mpcorr2]: https://github.com/stdlib-js/stats-incr-mpcorr2
+[@stdlib/stats/incr/mpcorr2]: https://github.com/stdlib-js/stats-incr-mpcorr2/tree/umd
 
-[@stdlib/stats/incr/mpcorrdist]: https://github.com/stdlib-js/stats-incr-mpcorrdist
+[@stdlib/stats/incr/mpcorrdist]: https://github.com/stdlib-js/stats-incr-mpcorrdist/tree/umd
 
-[@stdlib/stats/incr/mpe]: https://github.com/stdlib-js/stats-incr-mpe
+[@stdlib/stats/incr/mpe]: https://github.com/stdlib-js/stats-incr-mpe/tree/umd
 
-[@stdlib/stats/incr/mprod]: https://github.com/stdlib-js/stats-incr-mprod
+[@stdlib/stats/incr/mprod]: https://github.com/stdlib-js/stats-incr-mprod/tree/umd
 
-[@stdlib/stats/incr/mrange]: https://github.com/stdlib-js/stats-incr-mrange
+[@stdlib/stats/incr/mrange]: https://github.com/stdlib-js/stats-incr-mrange/tree/umd
 
-[@stdlib/stats/incr/mrmse]: https://github.com/stdlib-js/stats-incr-mrmse
+[@stdlib/stats/incr/mrmse]: https://github.com/stdlib-js/stats-incr-mrmse/tree/umd
 
-[@stdlib/stats/incr/mrss]: https://github.com/stdlib-js/stats-incr-mrss
+[@stdlib/stats/incr/mrss]: https://github.com/stdlib-js/stats-incr-mrss/tree/umd
 
-[@stdlib/stats/incr/mse]: https://github.com/stdlib-js/stats-incr-mse
+[@stdlib/stats/incr/mse]: https://github.com/stdlib-js/stats-incr-mse/tree/umd
 
-[@stdlib/stats/incr/mstdev]: https://github.com/stdlib-js/stats-incr-mstdev
+[@stdlib/stats/incr/mstdev]: https://github.com/stdlib-js/stats-incr-mstdev/tree/umd
 
-[@stdlib/stats/incr/msum]: https://github.com/stdlib-js/stats-incr-msum
+[@stdlib/stats/incr/msum]: https://github.com/stdlib-js/stats-incr-msum/tree/umd
 
-[@stdlib/stats/incr/msumabs]: https://github.com/stdlib-js/stats-incr-msumabs
+[@stdlib/stats/incr/msumabs]: https://github.com/stdlib-js/stats-incr-msumabs/tree/umd
 
-[@stdlib/stats/incr/msumabs2]: https://github.com/stdlib-js/stats-incr-msumabs2
+[@stdlib/stats/incr/msumabs2]: https://github.com/stdlib-js/stats-incr-msumabs2/tree/umd
 
-[@stdlib/stats/incr/msummary]: https://github.com/stdlib-js/stats-incr-msummary
+[@stdlib/stats/incr/msummary]: https://github.com/stdlib-js/stats-incr-msummary/tree/umd
 
-[@stdlib/stats/incr/msumprod]: https://github.com/stdlib-js/stats-incr-msumprod
+[@stdlib/stats/incr/msumprod]: https://github.com/stdlib-js/stats-incr-msumprod/tree/umd
 
-[@stdlib/stats/incr/mvariance]: https://github.com/stdlib-js/stats-incr-mvariance
+[@stdlib/stats/incr/mvariance]: https://github.com/stdlib-js/stats-incr-mvariance/tree/umd
 
-[@stdlib/stats/incr/mvmr]: https://github.com/stdlib-js/stats-incr-mvmr
+[@stdlib/stats/incr/mvmr]: https://github.com/stdlib-js/stats-incr-mvmr/tree/umd
 
-[@stdlib/stats/incr/nancount]: https://github.com/stdlib-js/stats-incr-nancount
+[@stdlib/stats/incr/nancount]: https://github.com/stdlib-js/stats-incr-nancount/tree/umd
 
-[@stdlib/stats/incr/nansum]: https://github.com/stdlib-js/stats-incr-nansum
+[@stdlib/stats/incr/nansum]: https://github.com/stdlib-js/stats-incr-nansum/tree/umd
 
-[@stdlib/stats/incr/nansumabs]: https://github.com/stdlib-js/stats-incr-nansumabs
+[@stdlib/stats/incr/nansumabs]: https://github.com/stdlib-js/stats-incr-nansumabs/tree/umd
 
-[@stdlib/stats/incr/nansumabs2]: https://github.com/stdlib-js/stats-incr-nansumabs2
+[@stdlib/stats/incr/nansumabs2]: https://github.com/stdlib-js/stats-incr-nansumabs2/tree/umd
 
-[@stdlib/stats/incr/pcorr]: https://github.com/stdlib-js/stats-incr-pcorr
+[@stdlib/stats/incr/pcorr]: https://github.com/stdlib-js/stats-incr-pcorr/tree/umd
 
-[@stdlib/stats/incr/pcorr2]: https://github.com/stdlib-js/stats-incr-pcorr2
+[@stdlib/stats/incr/pcorr2]: https://github.com/stdlib-js/stats-incr-pcorr2/tree/umd
 
-[@stdlib/stats/incr/pcorrdist]: https://github.com/stdlib-js/stats-incr-pcorrdist
+[@stdlib/stats/incr/pcorrdist]: https://github.com/stdlib-js/stats-incr-pcorrdist/tree/umd
 
-[@stdlib/stats/incr/pcorrdistmat]: https://github.com/stdlib-js/stats-incr-pcorrdistmat
+[@stdlib/stats/incr/pcorrdistmat]: https://github.com/stdlib-js/stats-incr-pcorrdistmat/tree/umd
 
-[@stdlib/stats/incr/pcorrmat]: https://github.com/stdlib-js/stats-incr-pcorrmat
+[@stdlib/stats/incr/pcorrmat]: https://github.com/stdlib-js/stats-incr-pcorrmat/tree/umd
 
-[@stdlib/stats/incr/prod]: https://github.com/stdlib-js/stats-incr-prod
+[@stdlib/stats/incr/prod]: https://github.com/stdlib-js/stats-incr-prod/tree/umd
 
-[@stdlib/stats/incr/range]: https://github.com/stdlib-js/stats-incr-range
+[@stdlib/stats/incr/range]: https://github.com/stdlib-js/stats-incr-range/tree/umd
 
-[@stdlib/stats/incr/rmse]: https://github.com/stdlib-js/stats-incr-rmse
+[@stdlib/stats/incr/rmse]: https://github.com/stdlib-js/stats-incr-rmse/tree/umd
 
-[@stdlib/stats/incr/rss]: https://github.com/stdlib-js/stats-incr-rss
+[@stdlib/stats/incr/rss]: https://github.com/stdlib-js/stats-incr-rss/tree/umd
 
-[@stdlib/stats/incr/skewness]: https://github.com/stdlib-js/stats-incr-skewness
+[@stdlib/stats/incr/skewness]: https://github.com/stdlib-js/stats-incr-skewness/tree/umd
 
-[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats-incr-stdev
+[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats-incr-stdev/tree/umd
 
-[@stdlib/stats/incr/sum]: https://github.com/stdlib-js/stats-incr-sum
+[@stdlib/stats/incr/sum]: https://github.com/stdlib-js/stats-incr-sum/tree/umd
 
-[@stdlib/stats/incr/sumabs]: https://github.com/stdlib-js/stats-incr-sumabs
+[@stdlib/stats/incr/sumabs]: https://github.com/stdlib-js/stats-incr-sumabs/tree/umd
 
-[@stdlib/stats/incr/sumabs2]: https://github.com/stdlib-js/stats-incr-sumabs2
+[@stdlib/stats/incr/sumabs2]: https://github.com/stdlib-js/stats-incr-sumabs2/tree/umd
 
-[@stdlib/stats/incr/summary]: https://github.com/stdlib-js/stats-incr-summary
+[@stdlib/stats/incr/summary]: https://github.com/stdlib-js/stats-incr-summary/tree/umd
 
-[@stdlib/stats/incr/sumprod]: https://github.com/stdlib-js/stats-incr-sumprod
+[@stdlib/stats/incr/sumprod]: https://github.com/stdlib-js/stats-incr-sumprod/tree/umd
 
-[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance
+[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance/tree/umd
 
-[@stdlib/stats/incr/vmr]: https://github.com/stdlib-js/stats-incr-vmr
+[@stdlib/stats/incr/vmr]: https://github.com/stdlib-js/stats-incr-vmr/tree/umd
 
-[@stdlib/stats/incr/wmean]: https://github.com/stdlib-js/stats-incr-wmean
+[@stdlib/stats/incr/wmean]: https://github.com/stdlib-js/stats-incr-wmean/tree/umd
 
 <!-- </toc-links> -->
 
