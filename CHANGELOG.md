@@ -4,22 +4,71 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-13)
+## Unreleased (2025-03-17)
 
 <section class="packages">
 
 ### Packages
 
+<section class="package" id="stats-incr-nanmean-unreleased">
+
+#### [@stdlib/stats/incr/nanmean](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/incr/nanmean)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d8fc3a6`](https://github.com/stdlib-js/stdlib/commit/d8fc3a674fe903b4a9ba6d2d0fd7732fdad9b336) - add `stats/incr/nanmean` [(#5976)](https://github.com/stdlib-js/stdlib/pull/5976)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5571](https://github.com/stdlib-js/stdlib/issues/5571)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#5571](https://github.com/stdlib-js/stdlib/issues/5571)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Anshu Kumar
+-   Athan Reines
+-   Karan Anand
 -   Philipp Burckhardt
 
 </section>
@@ -32,6 +81,8 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`d8fc3a6`](https://github.com/stdlib-js/stdlib/commit/d8fc3a674fe903b4a9ba6d2d0fd7732fdad9b336) - **feat:** add `stats/incr/nanmean` [(#5976)](https://github.com/stdlib-js/stdlib/pull/5976) _(by Anshu Kumar, Athan Reines)_
+-   [`eeb8c95`](https://github.com/stdlib-js/stdlib/commit/eeb8c957f0888c7e9d54eebd1d417c74cde335d4) - **docs:** fix use of weight parameter in example [(#4915)](https://github.com/stdlib-js/stdlib/pull/4915) _(by Karan Anand)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 
 </details>
