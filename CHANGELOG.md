@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-02)
+## Unreleased (2025-08-20)
 
 <section class="features">
 
 ### Features
 
+-   [`660d87d`](https://github.com/stdlib-js/stdlib/commit/660d87d43e9c2d172466a6eba02db7b92993a762) - add missing `stats/incr` exports to namespace
+-   [`d67b212`](https://github.com/stdlib-js/stdlib/commit/d67b2123cb21d1f9a7a6d6c419a71e1be78e379c) - add `stats/incr/nanmsum` [(#5842)](https://github.com/stdlib-js/stdlib/pull/5842)
 -   [`9bec44a`](https://github.com/stdlib-js/stdlib/commit/9bec44a3ee202771b579b7220d4b73b8cd0791e2) - add `stats/incr/nanmstdev` [(#6297)](https://github.com/stdlib-js/stdlib/pull/6297)
 -   [`76f65a5`](https://github.com/stdlib-js/stdlib/commit/76f65a5a792b6fa1ee9549e88ec07e2f978b682e) - add `stats/incr/nanmaxabs` [(#6116)](https://github.com/stdlib-js/stdlib/pull/6116)
 -   [`2c98a80`](https://github.com/stdlib-js/stdlib/commit/2c98a808f9b2896852452a74a21ddb5da775ffd6) - add `stats/incr/nanstdev` [(#5798)](https://github.com/stdlib-js/stdlib/pull/5798)
@@ -25,9 +27,9 @@
 
 ### Closed Issues
 
-A total of 6 issues were closed in this release:
+A total of 7 issues were closed in this release:
 
-[#5566](https://github.com/stdlib-js/stdlib/issues/5566), [#5571](https://github.com/stdlib-js/stdlib/issues/5571), [#5572](https://github.com/stdlib-js/stdlib/issues/5572), [#5609](https://github.com/stdlib-js/stdlib/issues/5609), [#5623](https://github.com/stdlib-js/stdlib/issues/5623), [#5624](https://github.com/stdlib-js/stdlib/issues/5624)
+[#5566](https://github.com/stdlib-js/stdlib/issues/5566), [#5571](https://github.com/stdlib-js/stdlib/issues/5571), [#5572](https://github.com/stdlib-js/stdlib/issues/5572), [#5609](https://github.com/stdlib-js/stdlib/issues/5609), [#5610](https://github.com/stdlib-js/stdlib/issues/5610), [#5623](https://github.com/stdlib-js/stdlib/issues/5623), [#5624](https://github.com/stdlib-js/stdlib/issues/5624)
 
 </section>
 
@@ -39,6 +41,14 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`660d87d`](https://github.com/stdlib-js/stdlib/commit/660d87d43e9c2d172466a6eba02db7b92993a762) - **feat:** add missing `stats/incr` exports to namespace _(by Philipp Burckhardt)_
+-   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`842892d`](https://github.com/stdlib-js/stdlib/commit/842892db70da69098d8fb271ea19ae45c09a8a0e) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
+-   [`d67b212`](https://github.com/stdlib-js/stdlib/commit/d67b2123cb21d1f9a7a6d6c419a71e1be78e379c) - **feat:** add `stats/incr/nanmsum` [(#5842)](https://github.com/stdlib-js/stdlib/pull/5842) _(by jsai28, Athan Reines, stdlib-bot)_
+-   [`b4858b7`](https://github.com/stdlib-js/stdlib/commit/b4858b789abad2c26b3e2522e74f23c604743ff4) - **docs:** update related packages sections [(#7230)](https://github.com/stdlib-js/stdlib/pull/7230) _(by stdlib-bot)_
 -   [`9bec44a`](https://github.com/stdlib-js/stdlib/commit/9bec44a3ee202771b579b7220d4b73b8cd0791e2) - **feat:** add `stats/incr/nanmstdev` [(#6297)](https://github.com/stdlib-js/stdlib/pull/6297) _(by Hemang Choudhary, Philipp Burckhardt, stdlib-bot)_
 -   [`76f65a5`](https://github.com/stdlib-js/stdlib/commit/76f65a5a792b6fa1ee9549e88ec07e2f978b682e) - **feat:** add `stats/incr/nanmaxabs` [(#6116)](https://github.com/stdlib-js/stdlib/pull/6116) _(by Girish Garg, Athan Reines, stdlib-bot)_
 -   [`a567912`](https://github.com/stdlib-js/stdlib/commit/a567912175989cd5cef181056c8d41c8678c0087) - **docs:** fix example _(by Athan Reines)_
@@ -60,7 +70,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 8 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Abdul Kaium
 -   Anshu Kumar
@@ -70,6 +80,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 -   Karan Anand
 -   NirvedMishra
 -   Philipp Burckhardt
+-   jsai28
 
 </section>
 
