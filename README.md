@@ -35,20 +35,32 @@ limitations under the License.
 
 > Incremental statistics.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-incr
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { incrapcorr, incrcount, incrcovariance, incrcovmat, incrcv, increwmean, increwstdev, increwvariance, incrgmean, incrgrubbs, incrhmean, incrkurtosis, incrmaape, incrmae, incrmapcorr, incrmape, incrmax, incrmaxabs, incrmcovariance, incrmcv, incrmda, incrme, incrmean, incrmeanabs, incrmeanabs2, incrmeanstdev, incrmeanvar, incrmgmean, incrmgrubbs, incrmhmean, incrmidrange, incrmin, incrminabs, incrminmax, incrminmaxabs, incrmmaape, incrmmae, incrmmape, incrmmax, incrmmaxabs, incrmmda, incrmme, incrmmean, incrmmeanabs, incrmmeanabs2, incrmmeanstdev, incrmmeanvar, incrmmidrange, incrmmin, incrmminabs, incrmminmax, incrmminmaxabs, incrmmpe, incrmmse, incrmpcorr, incrmpcorr2, incrmpcorrdist, incrmpe, incrmprod, incrmrange, incrmrmse, incrmrss, incrmse, incrmstdev, incrmsum, incrmsumabs, incrmsumabs2, incrmsummary, incrmsumprod, incrmvariance, incrmvmr, incrnancount, incrnanmaxabs, incrnanmean, incrnanmeanabs, incrnanmstdev, incrnanmsum, incrnanskewness, incrnanstdev, incrnansum, incrnansumabs, incrnansumabs2, incrpcorr, incrpcorr2, incrpcorrdist, incrpcorrdistmat, incrpcorrmat, incrprod, incrrange, incrrmse, incrrss, incrskewness, incrstdev, incrsum, incrsumabs, incrsumabs2, incrsummary, incrsumprod, incrvariance, incrvmr, incrwmean } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr@esm/index.mjs';
+var ns = require( '@stdlib/stats-incr' );
 ```
 
 #### ns
@@ -136,6 +148,13 @@ var incr = ns;
 -   <span class="signature">[`incrmvariance( window[, mean] )`][@stdlib/stats/incr/mvariance]</span><span class="delimiter">: </span><span class="description">compute a moving unbiased sample variance incrementally.</span>
 -   <span class="signature">[`incrmvmr( window[, mean] )`][@stdlib/stats/incr/mvmr]</span><span class="delimiter">: </span><span class="description">compute a moving variance-to-mean ratio (VMR) incrementally.</span>
 -   <span class="signature">[`incrnancount()`][@stdlib/stats/incr/nancount]</span><span class="delimiter">: </span><span class="description">compute a count incrementally, ignoring `NaN` values.</span>
+-   <span class="signature">[`incrnanmaxabs()`][@stdlib/stats/incr/nanmaxabs]</span><span class="delimiter">: </span><span class="description">compute a maximum absolute value incrementally, ignoring `NaN` values.</span>
+-   <span class="signature">[`incrnanmean()`][@stdlib/stats/incr/nanmean]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean incrementally, ignoring `NaN` values.</span>
+-   <span class="signature">[`incrnanmeanabs()`][@stdlib/stats/incr/nanmeanabs]</span><span class="delimiter">: </span><span class="description">compute an arithmetic mean of absolute values incrementally, ignoring `NaN` values.</span>
+-   <span class="signature">[`incrnanmstdev( window[, mean] )`][@stdlib/stats/incr/nanmstdev]</span><span class="delimiter">: </span><span class="description">compute a moving corrected sample standard deviation incrementally, ignoring NaN values.</span>
+-   <span class="signature">[`incrnanmsum( window )`][@stdlib/stats/incr/nanmsum]</span><span class="delimiter">: </span><span class="description">compute a moving sum incrementally, ignoring `NaN` values.</span>
+-   <span class="signature">[`incrnanskewness()`][@stdlib/stats/incr/nanskewness]</span><span class="delimiter">: </span><span class="description">compute a corrected sample skewness incrementally, ignoring `NaN` values.</span>
+-   <span class="signature">[`incrnanstdev( [mean] )`][@stdlib/stats/incr/nanstdev]</span><span class="delimiter">: </span><span class="description">compute a corrected sample standard deviation incrementally, ignoring `NaN` values.</span>
 -   <span class="signature">[`incrnansum()`][@stdlib/stats/incr/nansum]</span><span class="delimiter">: </span><span class="description">compute a sum incrementally, ignoring `NaN` values.</span>
 -   <span class="signature">[`incrnansumabs()`][@stdlib/stats/incr/nansumabs]</span><span class="delimiter">: </span><span class="description">compute a sum of absolute values incrementally, ignoring `NaN` values.</span>
 -   <span class="signature">[`incrnansumabs2()`][@stdlib/stats/incr/nansumabs2]</span><span class="delimiter">: </span><span class="description">compute a sum of squared absolute values incrementally, ignoring `NaN` values.</span>
@@ -175,20 +194,11 @@ var incr = ns;
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import getKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr@esm/index.mjs';
+```javascript
+var getKeys = require( '@stdlib/utils-keys' );
+var ns = require( '@stdlib/stats-incr' );
 
 console.log( getKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -212,7 +222,7 @@ console.log( getKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -277,193 +287,207 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/incr/apcorr]: https://github.com/stdlib-js/stats-incr-apcorr/tree/esm
+[@stdlib/stats/incr/apcorr]: https://github.com/stdlib-js/stats-incr-apcorr
 
-[@stdlib/stats/incr/count]: https://github.com/stdlib-js/stats-incr-count/tree/esm
+[@stdlib/stats/incr/count]: https://github.com/stdlib-js/stats-incr-count
 
-[@stdlib/stats/incr/covariance]: https://github.com/stdlib-js/stats-incr-covariance/tree/esm
+[@stdlib/stats/incr/covariance]: https://github.com/stdlib-js/stats-incr-covariance
 
-[@stdlib/stats/incr/covmat]: https://github.com/stdlib-js/stats-incr-covmat/tree/esm
+[@stdlib/stats/incr/covmat]: https://github.com/stdlib-js/stats-incr-covmat
 
-[@stdlib/stats/incr/cv]: https://github.com/stdlib-js/stats-incr-cv/tree/esm
+[@stdlib/stats/incr/cv]: https://github.com/stdlib-js/stats-incr-cv
 
-[@stdlib/stats/incr/ewmean]: https://github.com/stdlib-js/stats-incr-ewmean/tree/esm
+[@stdlib/stats/incr/ewmean]: https://github.com/stdlib-js/stats-incr-ewmean
 
-[@stdlib/stats/incr/ewstdev]: https://github.com/stdlib-js/stats-incr-ewstdev/tree/esm
+[@stdlib/stats/incr/ewstdev]: https://github.com/stdlib-js/stats-incr-ewstdev
 
-[@stdlib/stats/incr/ewvariance]: https://github.com/stdlib-js/stats-incr-ewvariance/tree/esm
+[@stdlib/stats/incr/ewvariance]: https://github.com/stdlib-js/stats-incr-ewvariance
 
-[@stdlib/stats/incr/gmean]: https://github.com/stdlib-js/stats-incr-gmean/tree/esm
+[@stdlib/stats/incr/gmean]: https://github.com/stdlib-js/stats-incr-gmean
 
-[@stdlib/stats/incr/grubbs]: https://github.com/stdlib-js/stats-incr-grubbs/tree/esm
+[@stdlib/stats/incr/grubbs]: https://github.com/stdlib-js/stats-incr-grubbs
 
-[@stdlib/stats/incr/hmean]: https://github.com/stdlib-js/stats-incr-hmean/tree/esm
+[@stdlib/stats/incr/hmean]: https://github.com/stdlib-js/stats-incr-hmean
 
-[@stdlib/stats/incr/kurtosis]: https://github.com/stdlib-js/stats-incr-kurtosis/tree/esm
+[@stdlib/stats/incr/kurtosis]: https://github.com/stdlib-js/stats-incr-kurtosis
 
-[@stdlib/stats/incr/maape]: https://github.com/stdlib-js/stats-incr-maape/tree/esm
+[@stdlib/stats/incr/maape]: https://github.com/stdlib-js/stats-incr-maape
 
-[@stdlib/stats/incr/mae]: https://github.com/stdlib-js/stats-incr-mae/tree/esm
+[@stdlib/stats/incr/mae]: https://github.com/stdlib-js/stats-incr-mae
 
-[@stdlib/stats/incr/mapcorr]: https://github.com/stdlib-js/stats-incr-mapcorr/tree/esm
+[@stdlib/stats/incr/mapcorr]: https://github.com/stdlib-js/stats-incr-mapcorr
 
-[@stdlib/stats/incr/mape]: https://github.com/stdlib-js/stats-incr-mape/tree/esm
+[@stdlib/stats/incr/mape]: https://github.com/stdlib-js/stats-incr-mape
 
-[@stdlib/stats/incr/max]: https://github.com/stdlib-js/stats-incr-max/tree/esm
+[@stdlib/stats/incr/max]: https://github.com/stdlib-js/stats-incr-max
 
-[@stdlib/stats/incr/maxabs]: https://github.com/stdlib-js/stats-incr-maxabs/tree/esm
+[@stdlib/stats/incr/maxabs]: https://github.com/stdlib-js/stats-incr-maxabs
 
-[@stdlib/stats/incr/mcovariance]: https://github.com/stdlib-js/stats-incr-mcovariance/tree/esm
+[@stdlib/stats/incr/mcovariance]: https://github.com/stdlib-js/stats-incr-mcovariance
 
-[@stdlib/stats/incr/mcv]: https://github.com/stdlib-js/stats-incr-mcv/tree/esm
+[@stdlib/stats/incr/mcv]: https://github.com/stdlib-js/stats-incr-mcv
 
-[@stdlib/stats/incr/mda]: https://github.com/stdlib-js/stats-incr-mda/tree/esm
+[@stdlib/stats/incr/mda]: https://github.com/stdlib-js/stats-incr-mda
 
-[@stdlib/stats/incr/me]: https://github.com/stdlib-js/stats-incr-me/tree/esm
+[@stdlib/stats/incr/me]: https://github.com/stdlib-js/stats-incr-me
 
-[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean/tree/esm
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean
 
-[@stdlib/stats/incr/meanabs]: https://github.com/stdlib-js/stats-incr-meanabs/tree/esm
+[@stdlib/stats/incr/meanabs]: https://github.com/stdlib-js/stats-incr-meanabs
 
-[@stdlib/stats/incr/meanabs2]: https://github.com/stdlib-js/stats-incr-meanabs2/tree/esm
+[@stdlib/stats/incr/meanabs2]: https://github.com/stdlib-js/stats-incr-meanabs2
 
-[@stdlib/stats/incr/meanstdev]: https://github.com/stdlib-js/stats-incr-meanstdev/tree/esm
+[@stdlib/stats/incr/meanstdev]: https://github.com/stdlib-js/stats-incr-meanstdev
 
-[@stdlib/stats/incr/meanvar]: https://github.com/stdlib-js/stats-incr-meanvar/tree/esm
+[@stdlib/stats/incr/meanvar]: https://github.com/stdlib-js/stats-incr-meanvar
 
-[@stdlib/stats/incr/mgmean]: https://github.com/stdlib-js/stats-incr-mgmean/tree/esm
+[@stdlib/stats/incr/mgmean]: https://github.com/stdlib-js/stats-incr-mgmean
 
-[@stdlib/stats/incr/mgrubbs]: https://github.com/stdlib-js/stats-incr-mgrubbs/tree/esm
+[@stdlib/stats/incr/mgrubbs]: https://github.com/stdlib-js/stats-incr-mgrubbs
 
-[@stdlib/stats/incr/mhmean]: https://github.com/stdlib-js/stats-incr-mhmean/tree/esm
+[@stdlib/stats/incr/mhmean]: https://github.com/stdlib-js/stats-incr-mhmean
 
-[@stdlib/stats/incr/midrange]: https://github.com/stdlib-js/stats-incr-midrange/tree/esm
+[@stdlib/stats/incr/midrange]: https://github.com/stdlib-js/stats-incr-midrange
 
-[@stdlib/stats/incr/min]: https://github.com/stdlib-js/stats-incr-min/tree/esm
+[@stdlib/stats/incr/min]: https://github.com/stdlib-js/stats-incr-min
 
-[@stdlib/stats/incr/minabs]: https://github.com/stdlib-js/stats-incr-minabs/tree/esm
+[@stdlib/stats/incr/minabs]: https://github.com/stdlib-js/stats-incr-minabs
 
-[@stdlib/stats/incr/minmax]: https://github.com/stdlib-js/stats-incr-minmax/tree/esm
+[@stdlib/stats/incr/minmax]: https://github.com/stdlib-js/stats-incr-minmax
 
-[@stdlib/stats/incr/minmaxabs]: https://github.com/stdlib-js/stats-incr-minmaxabs/tree/esm
+[@stdlib/stats/incr/minmaxabs]: https://github.com/stdlib-js/stats-incr-minmaxabs
 
-[@stdlib/stats/incr/mmaape]: https://github.com/stdlib-js/stats-incr-mmaape/tree/esm
+[@stdlib/stats/incr/mmaape]: https://github.com/stdlib-js/stats-incr-mmaape
 
-[@stdlib/stats/incr/mmae]: https://github.com/stdlib-js/stats-incr-mmae/tree/esm
+[@stdlib/stats/incr/mmae]: https://github.com/stdlib-js/stats-incr-mmae
 
-[@stdlib/stats/incr/mmape]: https://github.com/stdlib-js/stats-incr-mmape/tree/esm
+[@stdlib/stats/incr/mmape]: https://github.com/stdlib-js/stats-incr-mmape
 
-[@stdlib/stats/incr/mmax]: https://github.com/stdlib-js/stats-incr-mmax/tree/esm
+[@stdlib/stats/incr/mmax]: https://github.com/stdlib-js/stats-incr-mmax
 
-[@stdlib/stats/incr/mmaxabs]: https://github.com/stdlib-js/stats-incr-mmaxabs/tree/esm
+[@stdlib/stats/incr/mmaxabs]: https://github.com/stdlib-js/stats-incr-mmaxabs
 
-[@stdlib/stats/incr/mmda]: https://github.com/stdlib-js/stats-incr-mmda/tree/esm
+[@stdlib/stats/incr/mmda]: https://github.com/stdlib-js/stats-incr-mmda
 
-[@stdlib/stats/incr/mme]: https://github.com/stdlib-js/stats-incr-mme/tree/esm
+[@stdlib/stats/incr/mme]: https://github.com/stdlib-js/stats-incr-mme
 
-[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats-incr-mmean/tree/esm
+[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats-incr-mmean
 
-[@stdlib/stats/incr/mmeanabs]: https://github.com/stdlib-js/stats-incr-mmeanabs/tree/esm
+[@stdlib/stats/incr/mmeanabs]: https://github.com/stdlib-js/stats-incr-mmeanabs
 
-[@stdlib/stats/incr/mmeanabs2]: https://github.com/stdlib-js/stats-incr-mmeanabs2/tree/esm
+[@stdlib/stats/incr/mmeanabs2]: https://github.com/stdlib-js/stats-incr-mmeanabs2
 
-[@stdlib/stats/incr/mmeanstdev]: https://github.com/stdlib-js/stats-incr-mmeanstdev/tree/esm
+[@stdlib/stats/incr/mmeanstdev]: https://github.com/stdlib-js/stats-incr-mmeanstdev
 
-[@stdlib/stats/incr/mmeanvar]: https://github.com/stdlib-js/stats-incr-mmeanvar/tree/esm
+[@stdlib/stats/incr/mmeanvar]: https://github.com/stdlib-js/stats-incr-mmeanvar
 
-[@stdlib/stats/incr/mmidrange]: https://github.com/stdlib-js/stats-incr-mmidrange/tree/esm
+[@stdlib/stats/incr/mmidrange]: https://github.com/stdlib-js/stats-incr-mmidrange
 
-[@stdlib/stats/incr/mmin]: https://github.com/stdlib-js/stats-incr-mmin/tree/esm
+[@stdlib/stats/incr/mmin]: https://github.com/stdlib-js/stats-incr-mmin
 
-[@stdlib/stats/incr/mminabs]: https://github.com/stdlib-js/stats-incr-mminabs/tree/esm
+[@stdlib/stats/incr/mminabs]: https://github.com/stdlib-js/stats-incr-mminabs
 
-[@stdlib/stats/incr/mminmax]: https://github.com/stdlib-js/stats-incr-mminmax/tree/esm
+[@stdlib/stats/incr/mminmax]: https://github.com/stdlib-js/stats-incr-mminmax
 
-[@stdlib/stats/incr/mminmaxabs]: https://github.com/stdlib-js/stats-incr-mminmaxabs/tree/esm
+[@stdlib/stats/incr/mminmaxabs]: https://github.com/stdlib-js/stats-incr-mminmaxabs
 
-[@stdlib/stats/incr/mmpe]: https://github.com/stdlib-js/stats-incr-mmpe/tree/esm
+[@stdlib/stats/incr/mmpe]: https://github.com/stdlib-js/stats-incr-mmpe
 
-[@stdlib/stats/incr/mmse]: https://github.com/stdlib-js/stats-incr-mmse/tree/esm
+[@stdlib/stats/incr/mmse]: https://github.com/stdlib-js/stats-incr-mmse
 
-[@stdlib/stats/incr/mpcorr]: https://github.com/stdlib-js/stats-incr-mpcorr/tree/esm
+[@stdlib/stats/incr/mpcorr]: https://github.com/stdlib-js/stats-incr-mpcorr
 
-[@stdlib/stats/incr/mpcorr2]: https://github.com/stdlib-js/stats-incr-mpcorr2/tree/esm
+[@stdlib/stats/incr/mpcorr2]: https://github.com/stdlib-js/stats-incr-mpcorr2
 
-[@stdlib/stats/incr/mpcorrdist]: https://github.com/stdlib-js/stats-incr-mpcorrdist/tree/esm
+[@stdlib/stats/incr/mpcorrdist]: https://github.com/stdlib-js/stats-incr-mpcorrdist
 
-[@stdlib/stats/incr/mpe]: https://github.com/stdlib-js/stats-incr-mpe/tree/esm
+[@stdlib/stats/incr/mpe]: https://github.com/stdlib-js/stats-incr-mpe
 
-[@stdlib/stats/incr/mprod]: https://github.com/stdlib-js/stats-incr-mprod/tree/esm
+[@stdlib/stats/incr/mprod]: https://github.com/stdlib-js/stats-incr-mprod
 
-[@stdlib/stats/incr/mrange]: https://github.com/stdlib-js/stats-incr-mrange/tree/esm
+[@stdlib/stats/incr/mrange]: https://github.com/stdlib-js/stats-incr-mrange
 
-[@stdlib/stats/incr/mrmse]: https://github.com/stdlib-js/stats-incr-mrmse/tree/esm
+[@stdlib/stats/incr/mrmse]: https://github.com/stdlib-js/stats-incr-mrmse
 
-[@stdlib/stats/incr/mrss]: https://github.com/stdlib-js/stats-incr-mrss/tree/esm
+[@stdlib/stats/incr/mrss]: https://github.com/stdlib-js/stats-incr-mrss
 
-[@stdlib/stats/incr/mse]: https://github.com/stdlib-js/stats-incr-mse/tree/esm
+[@stdlib/stats/incr/mse]: https://github.com/stdlib-js/stats-incr-mse
 
-[@stdlib/stats/incr/mstdev]: https://github.com/stdlib-js/stats-incr-mstdev/tree/esm
+[@stdlib/stats/incr/mstdev]: https://github.com/stdlib-js/stats-incr-mstdev
 
-[@stdlib/stats/incr/msum]: https://github.com/stdlib-js/stats-incr-msum/tree/esm
+[@stdlib/stats/incr/msum]: https://github.com/stdlib-js/stats-incr-msum
 
-[@stdlib/stats/incr/msumabs]: https://github.com/stdlib-js/stats-incr-msumabs/tree/esm
+[@stdlib/stats/incr/msumabs]: https://github.com/stdlib-js/stats-incr-msumabs
 
-[@stdlib/stats/incr/msumabs2]: https://github.com/stdlib-js/stats-incr-msumabs2/tree/esm
+[@stdlib/stats/incr/msumabs2]: https://github.com/stdlib-js/stats-incr-msumabs2
 
-[@stdlib/stats/incr/msummary]: https://github.com/stdlib-js/stats-incr-msummary/tree/esm
+[@stdlib/stats/incr/msummary]: https://github.com/stdlib-js/stats-incr-msummary
 
-[@stdlib/stats/incr/msumprod]: https://github.com/stdlib-js/stats-incr-msumprod/tree/esm
+[@stdlib/stats/incr/msumprod]: https://github.com/stdlib-js/stats-incr-msumprod
 
-[@stdlib/stats/incr/mvariance]: https://github.com/stdlib-js/stats-incr-mvariance/tree/esm
+[@stdlib/stats/incr/mvariance]: https://github.com/stdlib-js/stats-incr-mvariance
 
-[@stdlib/stats/incr/mvmr]: https://github.com/stdlib-js/stats-incr-mvmr/tree/esm
+[@stdlib/stats/incr/mvmr]: https://github.com/stdlib-js/stats-incr-mvmr
 
-[@stdlib/stats/incr/nancount]: https://github.com/stdlib-js/stats-incr-nancount/tree/esm
+[@stdlib/stats/incr/nancount]: https://github.com/stdlib-js/stats-incr-nancount
 
-[@stdlib/stats/incr/nansum]: https://github.com/stdlib-js/stats-incr-nansum/tree/esm
+[@stdlib/stats/incr/nanmaxabs]: https://github.com/stdlib-js/stats-incr-nanmaxabs
 
-[@stdlib/stats/incr/nansumabs]: https://github.com/stdlib-js/stats-incr-nansumabs/tree/esm
+[@stdlib/stats/incr/nanmean]: https://github.com/stdlib-js/stats-incr-nanmean
 
-[@stdlib/stats/incr/nansumabs2]: https://github.com/stdlib-js/stats-incr-nansumabs2/tree/esm
+[@stdlib/stats/incr/nanmeanabs]: https://github.com/stdlib-js/stats-incr-nanmeanabs
 
-[@stdlib/stats/incr/pcorr]: https://github.com/stdlib-js/stats-incr-pcorr/tree/esm
+[@stdlib/stats/incr/nanmstdev]: https://github.com/stdlib-js/stats-incr-nanmstdev
 
-[@stdlib/stats/incr/pcorr2]: https://github.com/stdlib-js/stats-incr-pcorr2/tree/esm
+[@stdlib/stats/incr/nanmsum]: https://github.com/stdlib-js/stats-incr-nanmsum
 
-[@stdlib/stats/incr/pcorrdist]: https://github.com/stdlib-js/stats-incr-pcorrdist/tree/esm
+[@stdlib/stats/incr/nanskewness]: https://github.com/stdlib-js/stats-incr-nanskewness
 
-[@stdlib/stats/incr/pcorrdistmat]: https://github.com/stdlib-js/stats-incr-pcorrdistmat/tree/esm
+[@stdlib/stats/incr/nanstdev]: https://github.com/stdlib-js/stats-incr-nanstdev
 
-[@stdlib/stats/incr/pcorrmat]: https://github.com/stdlib-js/stats-incr-pcorrmat/tree/esm
+[@stdlib/stats/incr/nansum]: https://github.com/stdlib-js/stats-incr-nansum
 
-[@stdlib/stats/incr/prod]: https://github.com/stdlib-js/stats-incr-prod/tree/esm
+[@stdlib/stats/incr/nansumabs]: https://github.com/stdlib-js/stats-incr-nansumabs
 
-[@stdlib/stats/incr/range]: https://github.com/stdlib-js/stats-incr-range/tree/esm
+[@stdlib/stats/incr/nansumabs2]: https://github.com/stdlib-js/stats-incr-nansumabs2
 
-[@stdlib/stats/incr/rmse]: https://github.com/stdlib-js/stats-incr-rmse/tree/esm
+[@stdlib/stats/incr/pcorr]: https://github.com/stdlib-js/stats-incr-pcorr
 
-[@stdlib/stats/incr/rss]: https://github.com/stdlib-js/stats-incr-rss/tree/esm
+[@stdlib/stats/incr/pcorr2]: https://github.com/stdlib-js/stats-incr-pcorr2
 
-[@stdlib/stats/incr/skewness]: https://github.com/stdlib-js/stats-incr-skewness/tree/esm
+[@stdlib/stats/incr/pcorrdist]: https://github.com/stdlib-js/stats-incr-pcorrdist
 
-[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats-incr-stdev/tree/esm
+[@stdlib/stats/incr/pcorrdistmat]: https://github.com/stdlib-js/stats-incr-pcorrdistmat
 
-[@stdlib/stats/incr/sum]: https://github.com/stdlib-js/stats-incr-sum/tree/esm
+[@stdlib/stats/incr/pcorrmat]: https://github.com/stdlib-js/stats-incr-pcorrmat
 
-[@stdlib/stats/incr/sumabs]: https://github.com/stdlib-js/stats-incr-sumabs/tree/esm
+[@stdlib/stats/incr/prod]: https://github.com/stdlib-js/stats-incr-prod
 
-[@stdlib/stats/incr/sumabs2]: https://github.com/stdlib-js/stats-incr-sumabs2/tree/esm
+[@stdlib/stats/incr/range]: https://github.com/stdlib-js/stats-incr-range
 
-[@stdlib/stats/incr/summary]: https://github.com/stdlib-js/stats-incr-summary/tree/esm
+[@stdlib/stats/incr/rmse]: https://github.com/stdlib-js/stats-incr-rmse
 
-[@stdlib/stats/incr/sumprod]: https://github.com/stdlib-js/stats-incr-sumprod/tree/esm
+[@stdlib/stats/incr/rss]: https://github.com/stdlib-js/stats-incr-rss
 
-[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance/tree/esm
+[@stdlib/stats/incr/skewness]: https://github.com/stdlib-js/stats-incr-skewness
 
-[@stdlib/stats/incr/vmr]: https://github.com/stdlib-js/stats-incr-vmr/tree/esm
+[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats-incr-stdev
 
-[@stdlib/stats/incr/wmean]: https://github.com/stdlib-js/stats-incr-wmean/tree/esm
+[@stdlib/stats/incr/sum]: https://github.com/stdlib-js/stats-incr-sum
+
+[@stdlib/stats/incr/sumabs]: https://github.com/stdlib-js/stats-incr-sumabs
+
+[@stdlib/stats/incr/sumabs2]: https://github.com/stdlib-js/stats-incr-sumabs2
+
+[@stdlib/stats/incr/summary]: https://github.com/stdlib-js/stats-incr-summary
+
+[@stdlib/stats/incr/sumprod]: https://github.com/stdlib-js/stats-incr-sumprod
+
+[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance
+
+[@stdlib/stats/incr/vmr]: https://github.com/stdlib-js/stats-incr-vmr
+
+[@stdlib/stats/incr/wmean]: https://github.com/stdlib-js/stats-incr-wmean
 
 <!-- </toc-links> -->
 
