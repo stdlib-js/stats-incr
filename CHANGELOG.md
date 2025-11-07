@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-20)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
 ### Features
 
+-   [`091c2e0`](https://github.com/stdlib-js/stdlib/commit/091c2e05434c5e89a76d6f142d7f407f65ab7b27) - add `stats/incr/nanmin` [(#5917)](https://github.com/stdlib-js/stdlib/pull/5917)
+-   [`21c4e0f`](https://github.com/stdlib-js/stdlib/commit/21c4e0fc5a6b112f5e31cd07ce5354f9a7cf7332) - add `stats/incr/nangmean` [(#6020)](https://github.com/stdlib-js/stdlib/pull/6020)
+-   [`32709f5`](https://github.com/stdlib-js/stdlib/commit/32709f5088f656ce58b99b00463c1549f5d54b3b) - add `stats/incr/nanhmean` [(#6027)](https://github.com/stdlib-js/stdlib/pull/6027)
+-   [`ce68101`](https://github.com/stdlib-js/stdlib/commit/ce681013131b53961d7319ab939336cd2fdd9730) - update `stats/incr` TypeScript declarations
 -   [`660d87d`](https://github.com/stdlib-js/stdlib/commit/660d87d43e9c2d172466a6eba02db7b92993a762) - add missing `stats/incr` exports to namespace
 -   [`d67b212`](https://github.com/stdlib-js/stdlib/commit/d67b2123cb21d1f9a7a6d6c419a71e1be78e379c) - add `stats/incr/nanmsum` [(#5842)](https://github.com/stdlib-js/stdlib/pull/5842)
 -   [`9bec44a`](https://github.com/stdlib-js/stdlib/commit/9bec44a3ee202771b579b7220d4b73b8cd0791e2) - add `stats/incr/nanmstdev` [(#6297)](https://github.com/stdlib-js/stdlib/pull/6297)
@@ -27,9 +31,9 @@
 
 ### Closed Issues
 
-A total of 7 issues were closed in this release:
+A total of 10 issues were closed in this release:
 
-[#5566](https://github.com/stdlib-js/stdlib/issues/5566), [#5571](https://github.com/stdlib-js/stdlib/issues/5571), [#5572](https://github.com/stdlib-js/stdlib/issues/5572), [#5609](https://github.com/stdlib-js/stdlib/issues/5609), [#5610](https://github.com/stdlib-js/stdlib/issues/5610), [#5623](https://github.com/stdlib-js/stdlib/issues/5623), [#5624](https://github.com/stdlib-js/stdlib/issues/5624)
+[#5551](https://github.com/stdlib-js/stdlib/issues/5551), [#5559](https://github.com/stdlib-js/stdlib/issues/5559), [#5560](https://github.com/stdlib-js/stdlib/issues/5560), [#5566](https://github.com/stdlib-js/stdlib/issues/5566), [#5571](https://github.com/stdlib-js/stdlib/issues/5571), [#5572](https://github.com/stdlib-js/stdlib/issues/5572), [#5609](https://github.com/stdlib-js/stdlib/issues/5609), [#5610](https://github.com/stdlib-js/stdlib/issues/5610), [#5623](https://github.com/stdlib-js/stdlib/issues/5623), [#5624](https://github.com/stdlib-js/stdlib/issues/5624)
 
 </section>
 
@@ -41,6 +45,16 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
+-   [`72317f7`](https://github.com/stdlib-js/stdlib/commit/72317f741a54745b3025f656e124c272e8bdf344) - **docs:** update related packages sections [(#8203)](https://github.com/stdlib-js/stdlib/pull/8203) _(by stdlib-bot)_
+-   [`29a9d52`](https://github.com/stdlib-js/stdlib/commit/29a9d527a226f48963e1e0b8db110b64d760c72f) - **docs:** use correct instance formatting in return annotation _(by Philipp Burckhardt)_
+-   [`b7c2031`](https://github.com/stdlib-js/stdlib/commit/b7c20312491bdcf54ffc681e5fe489b9ba3d059c) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
+-   [`091c2e0`](https://github.com/stdlib-js/stdlib/commit/091c2e05434c5e89a76d6f142d7f407f65ab7b27) - **feat:** add `stats/incr/nanmin` [(#5917)](https://github.com/stdlib-js/stdlib/pull/5917) _(by Abhishek Jain, Philipp Burckhardt)_
+-   [`21c4e0f`](https://github.com/stdlib-js/stdlib/commit/21c4e0fc5a6b112f5e31cd07ce5354f9a7cf7332) - **feat:** add `stats/incr/nangmean` [(#6020)](https://github.com/stdlib-js/stdlib/pull/6020) _(by Abhishek Jain, Philipp Burckhardt)_
+-   [`32709f5`](https://github.com/stdlib-js/stdlib/commit/32709f5088f656ce58b99b00463c1549f5d54b3b) - **feat:** add `stats/incr/nanhmean` [(#6027)](https://github.com/stdlib-js/stdlib/pull/6027) _(by Abhishek Jain, Philipp Burckhardt)_
+-   [`ce68101`](https://github.com/stdlib-js/stdlib/commit/ce681013131b53961d7319ab939336cd2fdd9730) - **feat:** update `stats/incr` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`4c3f5bb`](https://github.com/stdlib-js/stdlib/commit/4c3f5bb092fbd08dfcdb47abecc46fe8b66ff63e) - **test:** ensure test values are deterministic _(by Athan Reines)_
+-   [`60c82d7`](https://github.com/stdlib-js/stdlib/commit/60c82d7956372df2c50a05cab73205aa85198aa5) - **docs:** fix example code _(by Philipp Burckhardt)_
 -   [`660d87d`](https://github.com/stdlib-js/stdlib/commit/660d87d43e9c2d172466a6eba02db7b92993a762) - **feat:** add missing `stats/incr` exports to namespace _(by Philipp Burckhardt)_
 -   [`7add020`](https://github.com/stdlib-js/stdlib/commit/7add0201c13e56a0381926ccfd4073c84eaf2ed4) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`fc438e0`](https://github.com/stdlib-js/stdlib/commit/fc438e0edbad0689d6923d6f3edb959b96597662) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
@@ -70,9 +84,10 @@ A total of 7 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Abdul Kaium
+-   Abhishek Jain
 -   Anshu Kumar
 -   Athan Reines
 -   Girish Garg
