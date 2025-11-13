@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-07)
+## Unreleased (2025-11-13)
 
 <section class="features">
 
@@ -45,6 +45,7 @@ A total of 10 issues were closed in this release:
 
 <details>
 
+-   [`e4d5f21`](https://github.com/stdlib-js/stdlib/commit/e4d5f21b9a7111bb6255874d2f7a2d5a0c08e59e) - **docs:** fix lint errors in TS declaration files _(by Philipp Burckhardt)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`72317f7`](https://github.com/stdlib-js/stdlib/commit/72317f741a54745b3025f656e124c272e8bdf344) - **docs:** update related packages sections [(#8203)](https://github.com/stdlib-js/stdlib/pull/8203) _(by stdlib-bot)_
 -   [`29a9d52`](https://github.com/stdlib-js/stdlib/commit/29a9d527a226f48963e1e0b8db110b64d760c72f) - **docs:** use correct instance formatting in return annotation _(by Philipp Burckhardt)_
