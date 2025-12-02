@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-13)
+## Unreleased (2025-12-02)
 
 <section class="features">
 
 ### Features
 
+-   [`90af5e7`](https://github.com/stdlib-js/stdlib/commit/90af5e7c4ff521f45440d1f9f333dcca9c5776fa) - add `stats/incr/nanmcv` [(#8447)](https://github.com/stdlib-js/stdlib/pull/8447)
 -   [`091c2e0`](https://github.com/stdlib-js/stdlib/commit/091c2e05434c5e89a76d6f142d7f407f65ab7b27) - add `stats/incr/nanmin` [(#5917)](https://github.com/stdlib-js/stdlib/pull/5917)
 -   [`21c4e0f`](https://github.com/stdlib-js/stdlib/commit/21c4e0fc5a6b112f5e31cd07ce5354f9a7cf7332) - add `stats/incr/nangmean` [(#6020)](https://github.com/stdlib-js/stdlib/pull/6020)
 -   [`32709f5`](https://github.com/stdlib-js/stdlib/commit/32709f5088f656ce58b99b00463c1549f5d54b3b) - add `stats/incr/nanhmean` [(#6027)](https://github.com/stdlib-js/stdlib/pull/6027)
@@ -31,9 +32,9 @@
 
 ### Closed Issues
 
-A total of 10 issues were closed in this release:
+A total of 11 issues were closed in this release:
 
-[#5551](https://github.com/stdlib-js/stdlib/issues/5551), [#5559](https://github.com/stdlib-js/stdlib/issues/5559), [#5560](https://github.com/stdlib-js/stdlib/issues/5560), [#5566](https://github.com/stdlib-js/stdlib/issues/5566), [#5571](https://github.com/stdlib-js/stdlib/issues/5571), [#5572](https://github.com/stdlib-js/stdlib/issues/5572), [#5609](https://github.com/stdlib-js/stdlib/issues/5609), [#5610](https://github.com/stdlib-js/stdlib/issues/5610), [#5623](https://github.com/stdlib-js/stdlib/issues/5623), [#5624](https://github.com/stdlib-js/stdlib/issues/5624)
+[#5551](https://github.com/stdlib-js/stdlib/issues/5551), [#5559](https://github.com/stdlib-js/stdlib/issues/5559), [#5560](https://github.com/stdlib-js/stdlib/issues/5560), [#5566](https://github.com/stdlib-js/stdlib/issues/5566), [#5568](https://github.com/stdlib-js/stdlib/issues/5568), [#5571](https://github.com/stdlib-js/stdlib/issues/5571), [#5572](https://github.com/stdlib-js/stdlib/issues/5572), [#5609](https://github.com/stdlib-js/stdlib/issues/5609), [#5610](https://github.com/stdlib-js/stdlib/issues/5610), [#5623](https://github.com/stdlib-js/stdlib/issues/5623), [#5624](https://github.com/stdlib-js/stdlib/issues/5624)
 
 </section>
 
@@ -45,6 +46,10 @@ A total of 10 issues were closed in this release:
 
 <details>
 
+-   [`88fe77a`](https://github.com/stdlib-js/stdlib/commit/88fe77a2f059149b803f51d1a787894c7670798b) - **docs:** fix example code in namespace TypeScript declarations _(by Philipp Burckhardt)_
+-   [`6267d64`](https://github.com/stdlib-js/stdlib/commit/6267d641e61283531af7ce4eb9fa5f83c145fc4d) - **docs:** fix equations _(by Athan Reines)_
+-   [`47e33c0`](https://github.com/stdlib-js/stdlib/commit/47e33c04e7efe09005ef537d36b2ab545d16cc86) - **chore:** fix malformed HTML `alt` attributes in README files _(by Philipp Burckhardt)_
+-   [`90af5e7`](https://github.com/stdlib-js/stdlib/commit/90af5e7c4ff521f45440d1f9f333dcca9c5776fa) - **feat:** add `stats/incr/nanmcv` [(#8447)](https://github.com/stdlib-js/stdlib/pull/8447) _(by Sagar Ratna Chaudhary, Athan Reines)_
 -   [`e4d5f21`](https://github.com/stdlib-js/stdlib/commit/e4d5f21b9a7111bb6255874d2f7a2d5a0c08e59e) - **docs:** fix lint errors in TS declaration files _(by Philipp Burckhardt)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`72317f7`](https://github.com/stdlib-js/stdlib/commit/72317f741a54745b3025f656e124c272e8bdf344) - **docs:** update related packages sections [(#8203)](https://github.com/stdlib-js/stdlib/pull/8203) _(by stdlib-bot)_
@@ -85,7 +90,7 @@ A total of 10 issues were closed in this release:
 
 ### Contributors
 
-A total of 10 people contributed to this release. Thank you to the following contributors:
+A total of 11 people contributed to this release. Thank you to the following contributors:
 
 -   Abdul Kaium
 -   Abhishek Jain
@@ -96,6 +101,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 -   Karan Anand
 -   NirvedMishra
 -   Philipp Burckhardt
+-   Sagar Ratna Chaudhary
 -   jsai28
 
 </section>
