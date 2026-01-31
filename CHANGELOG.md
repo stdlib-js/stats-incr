@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-12-02)
+## 0.3.0 (2026-01-31)
 
 <section class="features">
 
@@ -46,6 +46,7 @@ A total of 11 issues were closed in this release:
 
 <details>
 
+-   [`ed42a4f`](https://github.com/stdlib-js/stdlib/commit/ed42a4f20e80757e6e855dc9ac4e70ab5a28f423) - **docs:** update related packages sections [(#8835)](https://github.com/stdlib-js/stdlib/pull/8835) _(by stdlib-bot)_
 -   [`88fe77a`](https://github.com/stdlib-js/stdlib/commit/88fe77a2f059149b803f51d1a787894c7670798b) - **docs:** fix example code in namespace TypeScript declarations _(by Philipp Burckhardt)_
 -   [`6267d64`](https://github.com/stdlib-js/stdlib/commit/6267d641e61283531af7ce4eb9fa5f83c145fc4d) - **docs:** fix equations _(by Athan Reines)_
 -   [`47e33c0`](https://github.com/stdlib-js/stdlib/commit/47e33c04e7efe09005ef537d36b2ab545d16cc86) - **chore:** fix malformed HTML `alt` attributes in README files _(by Philipp Burckhardt)_
