@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr@v0.3.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { incrapcorr, incrcount, incrcovariance, incrcovmat, incrcv, increwmean, increwstdev, increwvariance, incrgmean, incrgrubbs, incrhmean, incrkurtosis, incrmaape, incrmae, incrmapcorr, incrmape, incrmax, incrmaxabs, incrmcovariance, incrmcv, incrmda, incrme, incrmean, incrmeanabs, incrmeanabs2, incrmeanstdev, incrmeanvar, incrmgmean, incrmgrubbs, incrmhmean, incrmidrange, incrmin, incrminabs, incrminmax, incrminmaxabs, incrmmaape, incrmmae, incrmmape, incrmmax, incrmmaxabs, incrmmda, incrmme, incrmmean, incrmmeanabs, incrmmeanabs2, incrmmeanstdev, incrmmeanvar, incrmmidrange, incrmmin, incrmminabs, incrmminmax, incrmminmaxabs, incrmmpe, incrmmse, incrmpcorr, incrmpcorr2, incrmpcorrdist, incrmpe, incrmprod, incrmrange, incrmrmse, incrmrss, incrmse, incrmstdev, incrmsum, incrmsumabs, incrmsumabs2, incrmsummary, incrmsumprod, incrmvariance, incrmvmr, incrnancount, incrnanmaxabs, incrnanmean, incrnanmeanabs, incrnanmstdev, incrnanmsum, incrnanskewness, incrnanstdev, incrnansum, incrnansumabs, incrnansumabs2, incrpcorr, incrpcorr2, incrpcorrdist, incrpcorrdistmat, incrpcorrmat, incrprod, incrrange, incrrmse, incrrss, incrskewness, incrstdev, incrsum, incrsumabs, incrsumabs2, incrsummary, incrsumprod, incrvariance, incrvmr, incrwmean } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr@v0.3.1-esm/index.mjs';
+import { incrapcorr, incrcount, incrcovariance, incrcovmat, incrcv, increwmean, increwstdev, increwvariance, incrgmean, incrgrubbs, incrhmean, incrkurtosis, incrmaape, incrmae, incrmapcorr, incrmape, incrmax, incrmaxabs, incrmcovariance, incrmcv, incrmda, incrme, incrmean, incrmeanabs, incrmeanabs2, incrmeanstdev, incrmeanvar, incrmgmean, incrmgrubbs, incrmhmean, incrmidrange, incrmin, incrminabs, incrminmax, incrminmaxabs, incrmmaape, incrmmae, incrmmape, incrmmax, incrmmaxabs, incrmmda, incrmme, incrmmean, incrmmeanabs, incrmmeanabs2, incrmmeanstdev, incrmmeanvar, incrmmidrange, incrmmin, incrmminabs, incrmminmax, incrmminmaxabs, incrmmpe, incrmmse, incrmpcorr, incrmpcorr2, incrmpcorrdist, incrmpe, incrmprod, incrmrange, incrmrmse, incrmrss, incrmse, incrmstdev, incrmsum, incrmsumabs, incrmsumabs2, incrmsummary, incrmsumprod, incrmvariance, incrmvmr, incrnancount, incrnanmaxabs, incrnanmean, incrnanmeanabs, incrnanmstdev, incrnanmsum, incrnanskewness, incrnanstdev, incrnansum, incrnansumabs, incrnansumabs2, incrpcorr, incrpcorr2, incrpcorrdist, incrpcorrdistmat, incrpcorrmat, incrprod, incrrange, incrrmse, incrrss, incrskewness, incrstdev, incrsum, incrsumabs, incrsumabs2, incrsummary, incrsumprod, incrvariance, incrvmr, incrwmean } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr@esm/index.mjs';
 ```
 
 #### ns
@@ -189,7 +194,7 @@ var incr = ns;
 <script type="module">
 
 import getKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr@v0.3.1-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr@esm/index.mjs';
 
 console.log( getKeys( ns ) );
 
