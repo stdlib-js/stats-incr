@@ -4,7 +4,29 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-09)
+## Unreleased (2026-04-09)
+
+<section class="features">
+
+### Features
+
+-   [`33f4c10`](https://github.com/stdlib-js/stdlib/commit/33f4c102ad24d1ac6f3883b8f68e528d74631621) - adding `stats/incr/nanmmse` [(#6190)](https://github.com/stdlib-js/stdlib/pull/6190)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#5599](https://github.com/stdlib-js/stdlib/issues/5599)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="commits">
 
@@ -12,6 +34,9 @@
 
 <details>
 
+-   [`93ac8b6`](https://github.com/stdlib-js/stdlib/commit/93ac8b6c1c6bc7c309f5607af8341e66be92f9f8) - **test:** add python fixtures support for `stats/incr/wmean` [(#9975)](https://github.com/stdlib-js/stdlib/pull/9975) _(by Om-A-osc, Philipp Burckhardt)_
+-   [`33f4c10`](https://github.com/stdlib-js/stdlib/commit/33f4c102ad24d1ac6f3883b8f68e528d74631621) - **feat:** adding `stats/incr/nanmmse` [(#6190)](https://github.com/stdlib-js/stdlib/pull/6190) _(by Sanchay Ketan Sinha, Harsh Yadav, Philipp Burckhardt)_
+-   [`00a6742`](https://github.com/stdlib-js/stdlib/commit/00a6742ac55ce04ddaff8f88ce92bc295f4584ec) - **bench:** minor string interpolation change in `stats/incr/wmean` [(#9977)](https://github.com/stdlib-js/stdlib/pull/9977) _(by Om-A-osc)_
 -   [`46f06ad`](https://github.com/stdlib-js/stdlib/commit/46f06ad6754741320241c60ff79ffdf0a7175b07) - **docs:** fix section tags in README files _(by Philipp Burckhardt)_
 
 </details>
@@ -24,9 +49,12 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Harsh Yadav
+-   Om-A-osc
 -   Philipp Burckhardt
+-   Sanchay Ketan Sinha
 
 </section>
 
