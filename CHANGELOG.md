@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-09)
+## Unreleased (2026-05-17)
 
 <section class="features">
 
 ### Features
 
+-   [`09a1c9b`](https://github.com/stdlib-js/stdlib/commit/09a1c9badf86164ab2cab6d50e68de2fe623b812) - add `stats/incr/nanvariance` [(#9214)](https://github.com/stdlib-js/stdlib/pull/9214)
+-   [`0c87c0d`](https://github.com/stdlib-js/stdlib/commit/0c87c0d9d6bfa2edf331a49559f074f5721a87f1) - add `stats/incr/nanmmape` [(#9296)](https://github.com/stdlib-js/stdlib/pull/9296)
 -   [`33f4c10`](https://github.com/stdlib-js/stdlib/commit/33f4c102ad24d1ac6f3883b8f68e528d74631621) - adding `stats/incr/nanmmse` [(#6190)](https://github.com/stdlib-js/stdlib/pull/6190)
 
 </section>
@@ -20,9 +22,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 3 issues were closed in this release:
 
-[#5599](https://github.com/stdlib-js/stdlib/issues/5599)
+[#5583](https://github.com/stdlib-js/stdlib/issues/5583), [#5599](https://github.com/stdlib-js/stdlib/issues/5599), [#5626](https://github.com/stdlib-js/stdlib/issues/5626)
 
 </section>
 
@@ -34,6 +36,10 @@ This release closes the following issue:
 
 <details>
 
+-   [`bfb2f6e`](https://github.com/stdlib-js/stdlib/commit/bfb2f6e194cb3b2ae521348aa516a3c82f7e2d7e) - **docs:** update related packages sections [(#12149)](https://github.com/stdlib-js/stdlib/pull/12149) _(by stdlib-bot, Athan Reines)_
+-   [`09a1c9b`](https://github.com/stdlib-js/stdlib/commit/09a1c9badf86164ab2cab6d50e68de2fe623b812) - **feat:** add `stats/incr/nanvariance` [(#9214)](https://github.com/stdlib-js/stdlib/pull/9214) _(by Nirmal Jyoti Biswas, Philipp Burckhardt)_
+-   [`0c87c0d`](https://github.com/stdlib-js/stdlib/commit/0c87c0d9d6bfa2edf331a49559f074f5721a87f1) - **feat:** add `stats/incr/nanmmape` [(#9296)](https://github.com/stdlib-js/stdlib/pull/9296) _(by Nirmal Jyoti Biswas, Philipp Burckhardt)_
+-   [`a07ad1c`](https://github.com/stdlib-js/stdlib/commit/a07ad1c13b9d2428b8897f47c6c78c6bfb0a235d) - **bench:** refactor to use string interpolation in `stats/incr` [(#11394)](https://github.com/stdlib-js/stdlib/pull/11394) _(by Karan Anand)_
 -   [`93ac8b6`](https://github.com/stdlib-js/stdlib/commit/93ac8b6c1c6bc7c309f5607af8341e66be92f9f8) - **test:** add python fixtures support for `stats/incr/wmean` [(#9975)](https://github.com/stdlib-js/stdlib/pull/9975) _(by Om-A-osc, Philipp Burckhardt)_
 -   [`33f4c10`](https://github.com/stdlib-js/stdlib/commit/33f4c102ad24d1ac6f3883b8f68e528d74631621) - **feat:** adding `stats/incr/nanmmse` [(#6190)](https://github.com/stdlib-js/stdlib/pull/6190) _(by Sanchay Ketan Sinha, Harsh Yadav, Philipp Burckhardt)_
 -   [`00a6742`](https://github.com/stdlib-js/stdlib/commit/00a6742ac55ce04ddaff8f88ce92bc295f4584ec) - **bench:** minor string interpolation change in `stats/incr/wmean` [(#9977)](https://github.com/stdlib-js/stdlib/pull/9977) _(by Om-A-osc)_
@@ -49,9 +55,12 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Harsh Yadav
+-   Karan Anand
+-   Nirmal Jyoti Biswas
 -   Om-A-osc
 -   Philipp Burckhardt
 -   Sanchay Ketan Sinha
