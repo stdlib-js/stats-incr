@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-20)
+## Unreleased (2026-06-06)
 
 <section class="features">
 
@@ -36,6 +36,12 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`01a5367`](https://github.com/stdlib-js/stdlib/commit/01a53679ade097d41ebc0cc6d34186c15b5a75b9) - **docs:** update `stats/incr` TypeScript declarations [(#12613)](https://github.com/stdlib-js/stdlib/pull/12613) _(by stdlib-bot)_
+-   [`8e32423`](https://github.com/stdlib-js/stdlib/commit/8e32423156316049de0700cfcb4d3da2b173f008) - **refactor:** align TypeScript declarations across stats packages [(#12512)](https://github.com/stdlib-js/stdlib/pull/12512) _(by Philipp Burckhardt)_
+-   [`9ee909b`](https://github.com/stdlib-js/stdlib/commit/9ee909b1ed87620a122223b5de6be41ad3f062f1) - **refactor:** align parameter name with implementation in `incr/nanstdev` [(#12492)](https://github.com/stdlib-js/stdlib/pull/12492) _(by Philipp Burckhardt)_
+-   [`f59b324`](https://github.com/stdlib-js/stdlib/commit/f59b324c3c652580e17c4c4baae8168faab8af8c) - **docs:** fix typos and copy-paste errors in `stats` TypeScript declarations [(#12482)](https://github.com/stdlib-js/stdlib/pull/12482) _(by Philipp Burckhardt, Athan Reines)_
+-   [`8fdaa49`](https://github.com/stdlib-js/stdlib/commit/8fdaa498fe75d79607e9f7376ec69c2ca92a2316) - **refactor:** use `format` for error construction in `stats/incr/pcorrmat` [(#12268)](https://github.com/stdlib-js/stdlib/pull/12268) _(by Philipp Burckhardt)_
+-   [`da0bf4e`](https://github.com/stdlib-js/stdlib/commit/da0bf4e0579edef12373a0e3c4eadbcbf402e192) - **docs:** update related packages sections [(#12237)](https://github.com/stdlib-js/stdlib/pull/12237) _(by stdlib-bot, Athan Reines)_
 -   [`bfb2f6e`](https://github.com/stdlib-js/stdlib/commit/bfb2f6e194cb3b2ae521348aa516a3c82f7e2d7e) - **docs:** update related packages sections [(#12149)](https://github.com/stdlib-js/stdlib/pull/12149) _(by stdlib-bot, Athan Reines)_
 -   [`09a1c9b`](https://github.com/stdlib-js/stdlib/commit/09a1c9badf86164ab2cab6d50e68de2fe623b812) - **feat:** add `stats/incr/nanvariance` [(#9214)](https://github.com/stdlib-js/stdlib/pull/9214) _(by Nirmal Jyoti Biswas, Philipp Burckhardt)_
 -   [`0c87c0d`](https://github.com/stdlib-js/stdlib/commit/0c87c0d9d6bfa2edf331a49559f074f5721a87f1) - **feat:** add `stats/incr/nanmmape` [(#9296)](https://github.com/stdlib-js/stdlib/pull/9296) _(by Nirmal Jyoti Biswas, Philipp Burckhardt)_
