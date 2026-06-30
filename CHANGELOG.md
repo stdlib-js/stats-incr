@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-06)
+## Unreleased (2026-06-30)
 
 <section class="features">
 
 ### Features
 
+-   [`50463ad`](https://github.com/stdlib-js/stdlib/commit/50463ad3cacf75a8ae63efb332d6dd188dc98dd7) - add `stats/incr/nanmsumabs` [(#12353)](https://github.com/stdlib-js/stdlib/pull/12353)
+-   [`d6ca649`](https://github.com/stdlib-js/stdlib/commit/d6ca6490d033f6fee757ebe2517f394d112d4c14) - add `stats/incr/nanrmse` [(#12357)](https://github.com/stdlib-js/stdlib/pull/12357)
+-   [`692e1d7`](https://github.com/stdlib-js/stdlib/commit/692e1d786aa9f2105ac05fda067c9fe64cb55c61) - add `stats/incr/nanmse` [(#12349)](https://github.com/stdlib-js/stdlib/pull/12349)
 -   [`09a1c9b`](https://github.com/stdlib-js/stdlib/commit/09a1c9badf86164ab2cab6d50e68de2fe623b812) - add `stats/incr/nanvariance` [(#9214)](https://github.com/stdlib-js/stdlib/pull/9214)
 -   [`0c87c0d`](https://github.com/stdlib-js/stdlib/commit/0c87c0d9d6bfa2edf331a49559f074f5721a87f1) - add `stats/incr/nanmmape` [(#9296)](https://github.com/stdlib-js/stdlib/pull/9296)
 -   [`33f4c10`](https://github.com/stdlib-js/stdlib/commit/33f4c102ad24d1ac6f3883b8f68e528d74631621) - adding `stats/incr/nanmmse` [(#6190)](https://github.com/stdlib-js/stdlib/pull/6190)
@@ -22,9 +25,9 @@
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 6 issues were closed in this release:
 
-[#5583](https://github.com/stdlib-js/stdlib/issues/5583), [#5599](https://github.com/stdlib-js/stdlib/issues/5599), [#5626](https://github.com/stdlib-js/stdlib/issues/5626)
+[#5583](https://github.com/stdlib-js/stdlib/issues/5583), [#5599](https://github.com/stdlib-js/stdlib/issues/5599), [#5608](https://github.com/stdlib-js/stdlib/issues/5608), [#5611](https://github.com/stdlib-js/stdlib/issues/5611), [#5621](https://github.com/stdlib-js/stdlib/issues/5621), [#5626](https://github.com/stdlib-js/stdlib/issues/5626)
 
 </section>
 
@@ -36,6 +39,10 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`1bf66f9`](https://github.com/stdlib-js/stdlib/commit/1bf66f9e8cc014aee3e336f525446f3d01118720) - **chore:** fix example and remove blank line [(#12813)](https://github.com/stdlib-js/stdlib/pull/12813) _(by Philipp Burckhardt)_
+-   [`50463ad`](https://github.com/stdlib-js/stdlib/commit/50463ad3cacf75a8ae63efb332d6dd188dc98dd7) - **feat:** add `stats/incr/nanmsumabs` [(#12353)](https://github.com/stdlib-js/stdlib/pull/12353) _(by wilmerdooley)_
+-   [`d6ca649`](https://github.com/stdlib-js/stdlib/commit/d6ca6490d033f6fee757ebe2517f394d112d4c14) - **feat:** add `stats/incr/nanrmse` [(#12357)](https://github.com/stdlib-js/stdlib/pull/12357) _(by wilmerdooley)_
+-   [`692e1d7`](https://github.com/stdlib-js/stdlib/commit/692e1d786aa9f2105ac05fda067c9fe64cb55c61) - **feat:** add `stats/incr/nanmse` [(#12349)](https://github.com/stdlib-js/stdlib/pull/12349) _(by wilmerdooley)_
 -   [`01a5367`](https://github.com/stdlib-js/stdlib/commit/01a53679ade097d41ebc0cc6d34186c15b5a75b9) - **docs:** update `stats/incr` TypeScript declarations [(#12613)](https://github.com/stdlib-js/stdlib/pull/12613) _(by stdlib-bot)_
 -   [`8e32423`](https://github.com/stdlib-js/stdlib/commit/8e32423156316049de0700cfcb4d3da2b173f008) - **refactor:** align TypeScript declarations across stats packages [(#12512)](https://github.com/stdlib-js/stdlib/pull/12512) _(by Philipp Burckhardt)_
 -   [`9ee909b`](https://github.com/stdlib-js/stdlib/commit/9ee909b1ed87620a122223b5de6be41ad3f062f1) - **refactor:** align parameter name with implementation in `incr/nanstdev` [(#12492)](https://github.com/stdlib-js/stdlib/pull/12492) _(by Philipp Burckhardt)_
@@ -61,7 +68,7 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Harsh Yadav
@@ -70,6 +77,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 -   Om-A-osc
 -   Philipp Burckhardt
 -   Sanchay Ketan Sinha
+-   wilmerdooley
 
 </section>
 
