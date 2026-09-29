@@ -91,6 +91,7 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`886edaa`](https://github.com/stdlib-js/stdlib/commit/886edaa2484d47494540ba535ccea6df9b1f96ad) - **docs:** update namespace table of contents [(#15643)](https://github.com/stdlib-js/stdlib/pull/15643) _(by stdlib-bot)_
 -   [`02bbe40`](https://github.com/stdlib-js/stdlib/commit/02bbe401138fc889143048b92172b4f53a402ead) - **docs:** update description [(#15642)](https://github.com/stdlib-js/stdlib/pull/15642) _(by stdlib-bot)_
 -   [`d770ac4`](https://github.com/stdlib-js/stdlib/commit/d770ac4bf1e14e5028877ff482c03c0253bbc70f) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`5c4b613`](https://github.com/stdlib-js/stdlib/commit/5c4b61336167ea0936140e859f85df7f52278e63) - **docs:** update descriptions and clean-up [(#15625)](https://github.com/stdlib-js/stdlib/pull/15625) _(by Philipp Burckhardt)_
