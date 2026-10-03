@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-29)
+## Unreleased (2026-10-03)
 
 <section class="features">
 
@@ -91,6 +91,13 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`d27df7e`](https://github.com/stdlib-js/stdlib/commit/d27df7e4925375f6c70dc20375ea56234f6a1f48) - **test:** migrate `stats/incr/nanhmean` to ULP-based assertions [(#15813)](https://github.com/stdlib-js/stdlib/pull/15813) _(by Athan Reines)_
+-   [`023e86b`](https://github.com/stdlib-js/stdlib/commit/023e86b21d307669e2e14fe2039648229698bb26) - **test:** migrate `stats/incr/mstdev` to ULP-based assertions [(#15783)](https://github.com/stdlib-js/stdlib/pull/15783) _(by Athan Reines)_
+-   [`353f8c5`](https://github.com/stdlib-js/stdlib/commit/353f8c54df5841e5088774abe84df57460b09ea7) - **test:** migrate `stats/incr/mcv` to ULP-based assertions [(#15746)](https://github.com/stdlib-js/stdlib/pull/15746) _(by Athan Reines)_
+-   [`0fc2056`](https://github.com/stdlib-js/stdlib/commit/0fc20561af4d567073ddd40c8214605c15e924ed) - **test:** migrate `stats/incr/gmean` to ULP-based assertions [(#15759)](https://github.com/stdlib-js/stdlib/pull/15759) _(by Philipp Burckhardt, Athan Reines)_
+-   [`772ab64`](https://github.com/stdlib-js/stdlib/commit/772ab6479dccdc19a66a7616864cdfc39d3013c0) - **test:** migrate `stats/incr/mrss` to ULP-based assertions [(#15669)](https://github.com/stdlib-js/stdlib/pull/15669) _(by Athan Reines)_
+-   [`0e5a7ac`](https://github.com/stdlib-js/stdlib/commit/0e5a7ac47fb187ec9930bb0e19cf90e32a7da0d5) - **docs:** update descriptions [(#15653)](https://github.com/stdlib-js/stdlib/pull/15653) _(by Philipp Burckhardt)_
+-   [`05164cb`](https://github.com/stdlib-js/stdlib/commit/05164cb7843c6c59cc54d2637f41c2cc64bdc743) - **test:** migrate `stats/incr/nanmae` to ULP-based assertions [(#15646)](https://github.com/stdlib-js/stdlib/pull/15646) _(by Athan Reines)_
 -   [`886edaa`](https://github.com/stdlib-js/stdlib/commit/886edaa2484d47494540ba535ccea6df9b1f96ad) - **docs:** update namespace table of contents [(#15643)](https://github.com/stdlib-js/stdlib/pull/15643) _(by stdlib-bot)_
 -   [`02bbe40`](https://github.com/stdlib-js/stdlib/commit/02bbe401138fc889143048b92172b4f53a402ead) - **docs:** update description [(#15642)](https://github.com/stdlib-js/stdlib/pull/15642) _(by stdlib-bot)_
 -   [`d770ac4`](https://github.com/stdlib-js/stdlib/commit/d770ac4bf1e14e5028877ff482c03c0253bbc70f) - **docs:** update Markdown equation elements _(by stdlib-bot)_
