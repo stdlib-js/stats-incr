@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-03)
+## Unreleased (2026-11-20)
 
 <section class="features">
 
@@ -91,6 +91,35 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
+-   [`7bf6853`](https://github.com/stdlib-js/stdlib/commit/7bf68530dd12fe22f2ec82d68e1f9a591ab042c0) - **chore:** clean-up [(#16303)](https://github.com/stdlib-js/stdlib/pull/16303) _(by Philipp Burckhardt)_
+-   [`9371c6d`](https://github.com/stdlib-js/stdlib/commit/9371c6d5eae3e93b9e97d2fa16bb2463141713b1) - **test:** migrate `stats/incr/nanmrange` to ULP-based assertions [(#16260)](https://github.com/stdlib-js/stdlib/pull/16260) _(by Athan Reines)_
+-   [`8ccf1c0`](https://github.com/stdlib-js/stdlib/commit/8ccf1c0614de61e8f68da2f0a936a13ea7443969) - **test:** migrate `stats/incr/nanmvariance` to ULP-based assertions [(#16204)](https://github.com/stdlib-js/stdlib/pull/16204) _(by Athan Reines)_
+-   [`2287b5e`](https://github.com/stdlib-js/stdlib/commit/2287b5e75b457bff2a9d2ba71e19f5daff637a41) - **test:** migrate `stats/incr/nanmpcorr` to ULP-based assertions [(#16203)](https://github.com/stdlib-js/stdlib/pull/16203) _(by Athan Reines)_
+-   [`7e10ce1`](https://github.com/stdlib-js/stdlib/commit/7e10ce1f27c2babbac4fc5a4db2b30c4684963de) - **test:** migrate `stats/incr/mmeanstdev` to ULP-based assertions [(#16199)](https://github.com/stdlib-js/stdlib/pull/16199) _(by Philipp Burckhardt)_
+-   [`fd5e598`](https://github.com/stdlib-js/stdlib/commit/fd5e598c68850d3799206705f13ae86f091c4eb3) - **test:** migrate `stats/incr/mmaape` to ULP-based assertions [(#16197)](https://github.com/stdlib-js/stdlib/pull/16197) _(by Athan Reines)_
+-   [`8d33774`](https://github.com/stdlib-js/stdlib/commit/8d337744bf91c9828de610b0ffaaddd9c48e7ee5) - **test:** migrate `stats/incr/nanrss` to ULP-based assertions [(#16284)](https://github.com/stdlib-js/stdlib/pull/16284) _(by Athan Reines)_
+-   [`932125a`](https://github.com/stdlib-js/stdlib/commit/932125aea3b5f0701647eb84998d5f725deb7c1d) - **test:** migrate `stats/incr/nanmapcorr` to ULP-based assertions [(#16163)](https://github.com/stdlib-js/stdlib/pull/16163) _(by Athan Reines)_
+-   [`faaaca7`](https://github.com/stdlib-js/stdlib/commit/faaaca75146deb7e44689f7cbb974a25075e7942) - **test:** migrate stats/incr/mcovariance to ULP-based assertions [(#16168)](https://github.com/stdlib-js/stdlib/pull/16168) _(by Philipp Burckhardt)_
+-   [`3bd71d2`](https://github.com/stdlib-js/stdlib/commit/3bd71d20a3ce2a6633e82c6746e64f9bda249800) - **test:** migrate `stats/incr/mapcorr` to ULP-based assertions [(#16147)](https://github.com/stdlib-js/stdlib/pull/16147) _(by Athan Reines)_
+-   [`cda73b3`](https://github.com/stdlib-js/stdlib/commit/cda73b36cf711aed215178a5098c3cd0e04cadc7) - **test:** migrate `stats/incr/nanrmse` to ULP-based assertions [(#16138)](https://github.com/stdlib-js/stdlib/pull/16138) _(by Philipp Burckhardt)_
+-   [`94f0584`](https://github.com/stdlib-js/stdlib/commit/94f058480fcc002996efd0da35a2d3e4cc7aadc9) - **test:** migrate `stats/incr/nanmpcorr2` to ULP-based assertions [(#16123)](https://github.com/stdlib-js/stdlib/pull/16123) _(by Athan Reines)_
+-   [`6e2cfd7`](https://github.com/stdlib-js/stdlib/commit/6e2cfd71c335a55f1b72ed73e79cf858f5193520) - **test:** migrate `stats/incr/nanmmeanvar` to ULP-based assertions [(#16082)](https://github.com/stdlib-js/stdlib/pull/16082) _(by Athan Reines)_
+-   [`dc667c9`](https://github.com/stdlib-js/stdlib/commit/dc667c9d7c1ea9a7fb61fb9e678b05bfbe5fa7f7) - **test:** migrate `stats/incr/mmeanvar` to ULP-based assertions [(#15856)](https://github.com/stdlib-js/stdlib/pull/15856) _(by Athan Reines)_
+-   [`fd1dbfa`](https://github.com/stdlib-js/stdlib/commit/fd1dbfa095f890255a123be9ebd5c4c33538c1fe) - **test:** migrate `stats/incr/nanme` to ULP-based assertions [(#15876)](https://github.com/stdlib-js/stdlib/pull/15876) _(by Athan Reines)_
+-   [`9a84340`](https://github.com/stdlib-js/stdlib/commit/9a8434072a52b64d085b71ac2331b25ce5d13375) - **test:** migrate `stats/incr/mpcorr` to ULP-based assertions [(#16064)](https://github.com/stdlib-js/stdlib/pull/16064) _(by Athan Reines)_
+-   [`7ac0706`](https://github.com/stdlib-js/stdlib/commit/7ac0706900db12356af9c17e5e35875d389d9004) - **test:** migrate `stats/incr/nanprod` to ULP-based assertions [(#15946)](https://github.com/stdlib-js/stdlib/pull/15946) _(by Athan Reines)_
+-   [`d9ecdf5`](https://github.com/stdlib-js/stdlib/commit/d9ecdf5d65e912cd7d6d6554c4e24e291d579755) - **test:** migrate `stats/incr/nanmmeanstdev` to ULP-based assertions [(#15959)](https://github.com/stdlib-js/stdlib/pull/15959) _(by Athan Reines)_
+-   [`05bd1fd`](https://github.com/stdlib-js/stdlib/commit/05bd1fd6aa15a5c1155e8d41fb9c7dcaa05f37ba) - **test:** migrate `stats/incr/mprod` to ULP-based assertions [(#15963)](https://github.com/stdlib-js/stdlib/pull/15963) _(by Athan Reines)_
+-   [`da1e052`](https://github.com/stdlib-js/stdlib/commit/da1e05265a5be585ba1bf6bf60406067180a89ae) - **test:** migrate `stats/incr/nanmpe` to ULP-based assertions [(#15969)](https://github.com/stdlib-js/stdlib/pull/15969) _(by Athan Reines)_
+-   [`c3d250c`](https://github.com/stdlib-js/stdlib/commit/c3d250c12bfc2df9a355ccf0ba4ef2aa7fc479b7) - **test:** migrate `stats/incr/apcorr` to ULP-based assertions [(#15978)](https://github.com/stdlib-js/stdlib/pull/15978) _(by Athan Reines)_
+-   [`af9514c`](https://github.com/stdlib-js/stdlib/commit/af9514c5d9d3f1dd09a62875d6691dcbe5a50207) - **test:** migrate `stats/incr/nanmmse` to ULP-based assertions [(#15986)](https://github.com/stdlib-js/stdlib/pull/15986) _(by Athan Reines)_
+-   [`5b971cf`](https://github.com/stdlib-js/stdlib/commit/5b971cf63536001dc6ab1c1dcf41ba95de52adf1) - **test:** migrate `stats/incr/nangmean` to ULP-based assertions [(#15992)](https://github.com/stdlib-js/stdlib/pull/15992) _(by Athan Reines)_
+-   [`0b68eb3`](https://github.com/stdlib-js/stdlib/commit/0b68eb3f035cc35924ebe52f4369d222c8bed3ed) - **test:** migrate `stats/incr/rss` to ULP-based assertions [(#16005)](https://github.com/stdlib-js/stdlib/pull/16005) _(by Athan Reines)_
+-   [`7704219`](https://github.com/stdlib-js/stdlib/commit/7704219b2d0b3f92dc90cec453b894c652d8531d) - **test:** migrate `stats/incr/nanmmpe` to ULP-based assertions [(#16015)](https://github.com/stdlib-js/stdlib/pull/16015) _(by Athan Reines)_
+-   [`d6455a2`](https://github.com/stdlib-js/stdlib/commit/d6455a20efcb78305e82147c101989e8d5e32ff9) - **test:** migrate `stats/incr/hmean` to ULP-based assertions [(#16024)](https://github.com/stdlib-js/stdlib/pull/16024) _(by Athan Reines)_
+-   [`9d72759`](https://github.com/stdlib-js/stdlib/commit/9d7275930edc7bcf612dd4b91c640a2b7e4a9d8b) - **test:** migrate `stats/incr/nanmgmean` to ULP-based assertions [(#16032)](https://github.com/stdlib-js/stdlib/pull/16032) _(by Athan Reines)_
+-   [`f091734`](https://github.com/stdlib-js/stdlib/commit/f09173496867e4af9d41a0fa656c08e6bb266430) - **test:** migrate `stats/incr/covariance` to ULP-based assertions [(#16055)](https://github.com/stdlib-js/stdlib/pull/16055) _(by Athan Reines)_
 -   [`d27df7e`](https://github.com/stdlib-js/stdlib/commit/d27df7e4925375f6c70dc20375ea56234f6a1f48) - **test:** migrate `stats/incr/nanhmean` to ULP-based assertions [(#15813)](https://github.com/stdlib-js/stdlib/pull/15813) _(by Athan Reines)_
 -   [`023e86b`](https://github.com/stdlib-js/stdlib/commit/023e86b21d307669e2e14fe2039648229698bb26) - **test:** migrate `stats/incr/mstdev` to ULP-based assertions [(#15783)](https://github.com/stdlib-js/stdlib/pull/15783) _(by Athan Reines)_
 -   [`353f8c5`](https://github.com/stdlib-js/stdlib/commit/353f8c54df5841e5088774abe84df57460b09ea7) - **test:** migrate `stats/incr/mcv` to ULP-based assertions [(#15746)](https://github.com/stdlib-js/stdlib/pull/15746) _(by Athan Reines)_
