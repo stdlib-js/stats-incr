@@ -35,32 +35,20 @@ limitations under the License.
 
 > Incremental statistics.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-incr
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/stats-incr' );
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr@deno/mod.js';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { incrapcorr, incrcount, incrcovariance, incrcovmat, incrcv, increwmean, increwstdev, increwvariance, incrgmean, incrgrubbs, incrhmean, incrkurtosis, incrmaape, incrmae, incrmapcorr, incrmape, incrmax, incrmaxabs, incrmcovariance, incrmcv, incrmda, incrme, incrmean, incrmeanabs, incrmeanabs2, incrmeanstdev, incrmeanvar, incrmgmean, incrmgrubbs, incrmhmean, incrmidrange, incrmin, incrminabs, incrminmax, incrminmaxabs, incrmmaape, incrmmae, incrmmape, incrmmax, incrmmaxabs, incrmmda, incrmme, incrmmean, incrmmeanabs, incrmmeanabs2, incrmmeanstdev, incrmmeanvar, incrmmidrange, incrmmin, incrmminabs, incrmminmax, incrmminmaxabs, incrmmpe, incrmmse, incrmpcorr, incrmpcorr2, incrmpcorrdist, incrmpe, incrmprod, incrmrange, incrmrmse, incrmrss, incrmse, incrmstdev, incrmsum, incrmsumabs, incrmsumabs2, incrmsummary, incrmsumprod, incrmvariance, incrmvmr, incrnancount, incrnanmaxabs, incrnanmean, incrnanmeanabs, incrnanmstdev, incrnanmsum, incrnanskewness, incrnanstdev, incrnansum, incrnansumabs, incrnansumabs2, incrpcorr, incrpcorr2, incrpcorrdist, incrpcorrdistmat, incrpcorrmat, incrprod, incrrange, incrrmse, incrrss, incrskewness, incrstdev, incrsum, incrsumabs, incrsumabs2, incrsummary, incrsumprod, incrvariance, incrvmr, incrwmean } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr@deno/mod.js';
 ```
 
 #### ns
@@ -195,8 +183,8 @@ var incr = ns;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var getKeys = require( '@stdlib/utils-keys' );
-var ns = require( '@stdlib/stats-incr' );
+import getKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr@deno/mod.js';
 
 console.log( getKeys( ns ) );
 ```
@@ -222,7 +210,7 @@ console.log( getKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -287,207 +275,207 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/incr/apcorr]: https://github.com/stdlib-js/stats-incr-apcorr
+[@stdlib/stats/incr/apcorr]: https://github.com/stdlib-js/stats-incr-apcorr/tree/deno
 
-[@stdlib/stats/incr/count]: https://github.com/stdlib-js/stats-incr-count
+[@stdlib/stats/incr/count]: https://github.com/stdlib-js/stats-incr-count/tree/deno
 
-[@stdlib/stats/incr/covariance]: https://github.com/stdlib-js/stats-incr-covariance
+[@stdlib/stats/incr/covariance]: https://github.com/stdlib-js/stats-incr-covariance/tree/deno
 
-[@stdlib/stats/incr/covmat]: https://github.com/stdlib-js/stats-incr-covmat
+[@stdlib/stats/incr/covmat]: https://github.com/stdlib-js/stats-incr-covmat/tree/deno
 
-[@stdlib/stats/incr/cv]: https://github.com/stdlib-js/stats-incr-cv
+[@stdlib/stats/incr/cv]: https://github.com/stdlib-js/stats-incr-cv/tree/deno
 
-[@stdlib/stats/incr/ewmean]: https://github.com/stdlib-js/stats-incr-ewmean
+[@stdlib/stats/incr/ewmean]: https://github.com/stdlib-js/stats-incr-ewmean/tree/deno
 
-[@stdlib/stats/incr/ewstdev]: https://github.com/stdlib-js/stats-incr-ewstdev
+[@stdlib/stats/incr/ewstdev]: https://github.com/stdlib-js/stats-incr-ewstdev/tree/deno
 
-[@stdlib/stats/incr/ewvariance]: https://github.com/stdlib-js/stats-incr-ewvariance
+[@stdlib/stats/incr/ewvariance]: https://github.com/stdlib-js/stats-incr-ewvariance/tree/deno
 
-[@stdlib/stats/incr/gmean]: https://github.com/stdlib-js/stats-incr-gmean
+[@stdlib/stats/incr/gmean]: https://github.com/stdlib-js/stats-incr-gmean/tree/deno
 
-[@stdlib/stats/incr/grubbs]: https://github.com/stdlib-js/stats-incr-grubbs
+[@stdlib/stats/incr/grubbs]: https://github.com/stdlib-js/stats-incr-grubbs/tree/deno
 
-[@stdlib/stats/incr/hmean]: https://github.com/stdlib-js/stats-incr-hmean
+[@stdlib/stats/incr/hmean]: https://github.com/stdlib-js/stats-incr-hmean/tree/deno
 
-[@stdlib/stats/incr/kurtosis]: https://github.com/stdlib-js/stats-incr-kurtosis
+[@stdlib/stats/incr/kurtosis]: https://github.com/stdlib-js/stats-incr-kurtosis/tree/deno
 
-[@stdlib/stats/incr/maape]: https://github.com/stdlib-js/stats-incr-maape
+[@stdlib/stats/incr/maape]: https://github.com/stdlib-js/stats-incr-maape/tree/deno
 
-[@stdlib/stats/incr/mae]: https://github.com/stdlib-js/stats-incr-mae
+[@stdlib/stats/incr/mae]: https://github.com/stdlib-js/stats-incr-mae/tree/deno
 
-[@stdlib/stats/incr/mapcorr]: https://github.com/stdlib-js/stats-incr-mapcorr
+[@stdlib/stats/incr/mapcorr]: https://github.com/stdlib-js/stats-incr-mapcorr/tree/deno
 
-[@stdlib/stats/incr/mape]: https://github.com/stdlib-js/stats-incr-mape
+[@stdlib/stats/incr/mape]: https://github.com/stdlib-js/stats-incr-mape/tree/deno
 
-[@stdlib/stats/incr/max]: https://github.com/stdlib-js/stats-incr-max
+[@stdlib/stats/incr/max]: https://github.com/stdlib-js/stats-incr-max/tree/deno
 
-[@stdlib/stats/incr/maxabs]: https://github.com/stdlib-js/stats-incr-maxabs
+[@stdlib/stats/incr/maxabs]: https://github.com/stdlib-js/stats-incr-maxabs/tree/deno
 
-[@stdlib/stats/incr/mcovariance]: https://github.com/stdlib-js/stats-incr-mcovariance
+[@stdlib/stats/incr/mcovariance]: https://github.com/stdlib-js/stats-incr-mcovariance/tree/deno
 
-[@stdlib/stats/incr/mcv]: https://github.com/stdlib-js/stats-incr-mcv
+[@stdlib/stats/incr/mcv]: https://github.com/stdlib-js/stats-incr-mcv/tree/deno
 
-[@stdlib/stats/incr/mda]: https://github.com/stdlib-js/stats-incr-mda
+[@stdlib/stats/incr/mda]: https://github.com/stdlib-js/stats-incr-mda/tree/deno
 
-[@stdlib/stats/incr/me]: https://github.com/stdlib-js/stats-incr-me
+[@stdlib/stats/incr/me]: https://github.com/stdlib-js/stats-incr-me/tree/deno
 
-[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean
+[@stdlib/stats/incr/mean]: https://github.com/stdlib-js/stats-incr-mean/tree/deno
 
-[@stdlib/stats/incr/meanabs]: https://github.com/stdlib-js/stats-incr-meanabs
+[@stdlib/stats/incr/meanabs]: https://github.com/stdlib-js/stats-incr-meanabs/tree/deno
 
-[@stdlib/stats/incr/meanabs2]: https://github.com/stdlib-js/stats-incr-meanabs2
+[@stdlib/stats/incr/meanabs2]: https://github.com/stdlib-js/stats-incr-meanabs2/tree/deno
 
-[@stdlib/stats/incr/meanstdev]: https://github.com/stdlib-js/stats-incr-meanstdev
+[@stdlib/stats/incr/meanstdev]: https://github.com/stdlib-js/stats-incr-meanstdev/tree/deno
 
-[@stdlib/stats/incr/meanvar]: https://github.com/stdlib-js/stats-incr-meanvar
+[@stdlib/stats/incr/meanvar]: https://github.com/stdlib-js/stats-incr-meanvar/tree/deno
 
-[@stdlib/stats/incr/mgmean]: https://github.com/stdlib-js/stats-incr-mgmean
+[@stdlib/stats/incr/mgmean]: https://github.com/stdlib-js/stats-incr-mgmean/tree/deno
 
-[@stdlib/stats/incr/mgrubbs]: https://github.com/stdlib-js/stats-incr-mgrubbs
+[@stdlib/stats/incr/mgrubbs]: https://github.com/stdlib-js/stats-incr-mgrubbs/tree/deno
 
-[@stdlib/stats/incr/mhmean]: https://github.com/stdlib-js/stats-incr-mhmean
+[@stdlib/stats/incr/mhmean]: https://github.com/stdlib-js/stats-incr-mhmean/tree/deno
 
-[@stdlib/stats/incr/midrange]: https://github.com/stdlib-js/stats-incr-midrange
+[@stdlib/stats/incr/midrange]: https://github.com/stdlib-js/stats-incr-midrange/tree/deno
 
-[@stdlib/stats/incr/min]: https://github.com/stdlib-js/stats-incr-min
+[@stdlib/stats/incr/min]: https://github.com/stdlib-js/stats-incr-min/tree/deno
 
-[@stdlib/stats/incr/minabs]: https://github.com/stdlib-js/stats-incr-minabs
+[@stdlib/stats/incr/minabs]: https://github.com/stdlib-js/stats-incr-minabs/tree/deno
 
-[@stdlib/stats/incr/minmax]: https://github.com/stdlib-js/stats-incr-minmax
+[@stdlib/stats/incr/minmax]: https://github.com/stdlib-js/stats-incr-minmax/tree/deno
 
-[@stdlib/stats/incr/minmaxabs]: https://github.com/stdlib-js/stats-incr-minmaxabs
+[@stdlib/stats/incr/minmaxabs]: https://github.com/stdlib-js/stats-incr-minmaxabs/tree/deno
 
-[@stdlib/stats/incr/mmaape]: https://github.com/stdlib-js/stats-incr-mmaape
+[@stdlib/stats/incr/mmaape]: https://github.com/stdlib-js/stats-incr-mmaape/tree/deno
 
-[@stdlib/stats/incr/mmae]: https://github.com/stdlib-js/stats-incr-mmae
+[@stdlib/stats/incr/mmae]: https://github.com/stdlib-js/stats-incr-mmae/tree/deno
 
-[@stdlib/stats/incr/mmape]: https://github.com/stdlib-js/stats-incr-mmape
+[@stdlib/stats/incr/mmape]: https://github.com/stdlib-js/stats-incr-mmape/tree/deno
 
-[@stdlib/stats/incr/mmax]: https://github.com/stdlib-js/stats-incr-mmax
+[@stdlib/stats/incr/mmax]: https://github.com/stdlib-js/stats-incr-mmax/tree/deno
 
-[@stdlib/stats/incr/mmaxabs]: https://github.com/stdlib-js/stats-incr-mmaxabs
+[@stdlib/stats/incr/mmaxabs]: https://github.com/stdlib-js/stats-incr-mmaxabs/tree/deno
 
-[@stdlib/stats/incr/mmda]: https://github.com/stdlib-js/stats-incr-mmda
+[@stdlib/stats/incr/mmda]: https://github.com/stdlib-js/stats-incr-mmda/tree/deno
 
-[@stdlib/stats/incr/mme]: https://github.com/stdlib-js/stats-incr-mme
+[@stdlib/stats/incr/mme]: https://github.com/stdlib-js/stats-incr-mme/tree/deno
 
-[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats-incr-mmean
+[@stdlib/stats/incr/mmean]: https://github.com/stdlib-js/stats-incr-mmean/tree/deno
 
-[@stdlib/stats/incr/mmeanabs]: https://github.com/stdlib-js/stats-incr-mmeanabs
+[@stdlib/stats/incr/mmeanabs]: https://github.com/stdlib-js/stats-incr-mmeanabs/tree/deno
 
-[@stdlib/stats/incr/mmeanabs2]: https://github.com/stdlib-js/stats-incr-mmeanabs2
+[@stdlib/stats/incr/mmeanabs2]: https://github.com/stdlib-js/stats-incr-mmeanabs2/tree/deno
 
-[@stdlib/stats/incr/mmeanstdev]: https://github.com/stdlib-js/stats-incr-mmeanstdev
+[@stdlib/stats/incr/mmeanstdev]: https://github.com/stdlib-js/stats-incr-mmeanstdev/tree/deno
 
-[@stdlib/stats/incr/mmeanvar]: https://github.com/stdlib-js/stats-incr-mmeanvar
+[@stdlib/stats/incr/mmeanvar]: https://github.com/stdlib-js/stats-incr-mmeanvar/tree/deno
 
-[@stdlib/stats/incr/mmidrange]: https://github.com/stdlib-js/stats-incr-mmidrange
+[@stdlib/stats/incr/mmidrange]: https://github.com/stdlib-js/stats-incr-mmidrange/tree/deno
 
-[@stdlib/stats/incr/mmin]: https://github.com/stdlib-js/stats-incr-mmin
+[@stdlib/stats/incr/mmin]: https://github.com/stdlib-js/stats-incr-mmin/tree/deno
 
-[@stdlib/stats/incr/mminabs]: https://github.com/stdlib-js/stats-incr-mminabs
+[@stdlib/stats/incr/mminabs]: https://github.com/stdlib-js/stats-incr-mminabs/tree/deno
 
-[@stdlib/stats/incr/mminmax]: https://github.com/stdlib-js/stats-incr-mminmax
+[@stdlib/stats/incr/mminmax]: https://github.com/stdlib-js/stats-incr-mminmax/tree/deno
 
-[@stdlib/stats/incr/mminmaxabs]: https://github.com/stdlib-js/stats-incr-mminmaxabs
+[@stdlib/stats/incr/mminmaxabs]: https://github.com/stdlib-js/stats-incr-mminmaxabs/tree/deno
 
-[@stdlib/stats/incr/mmpe]: https://github.com/stdlib-js/stats-incr-mmpe
+[@stdlib/stats/incr/mmpe]: https://github.com/stdlib-js/stats-incr-mmpe/tree/deno
 
-[@stdlib/stats/incr/mmse]: https://github.com/stdlib-js/stats-incr-mmse
+[@stdlib/stats/incr/mmse]: https://github.com/stdlib-js/stats-incr-mmse/tree/deno
 
-[@stdlib/stats/incr/mpcorr]: https://github.com/stdlib-js/stats-incr-mpcorr
+[@stdlib/stats/incr/mpcorr]: https://github.com/stdlib-js/stats-incr-mpcorr/tree/deno
 
-[@stdlib/stats/incr/mpcorr2]: https://github.com/stdlib-js/stats-incr-mpcorr2
+[@stdlib/stats/incr/mpcorr2]: https://github.com/stdlib-js/stats-incr-mpcorr2/tree/deno
 
-[@stdlib/stats/incr/mpcorrdist]: https://github.com/stdlib-js/stats-incr-mpcorrdist
+[@stdlib/stats/incr/mpcorrdist]: https://github.com/stdlib-js/stats-incr-mpcorrdist/tree/deno
 
-[@stdlib/stats/incr/mpe]: https://github.com/stdlib-js/stats-incr-mpe
+[@stdlib/stats/incr/mpe]: https://github.com/stdlib-js/stats-incr-mpe/tree/deno
 
-[@stdlib/stats/incr/mprod]: https://github.com/stdlib-js/stats-incr-mprod
+[@stdlib/stats/incr/mprod]: https://github.com/stdlib-js/stats-incr-mprod/tree/deno
 
-[@stdlib/stats/incr/mrange]: https://github.com/stdlib-js/stats-incr-mrange
+[@stdlib/stats/incr/mrange]: https://github.com/stdlib-js/stats-incr-mrange/tree/deno
 
-[@stdlib/stats/incr/mrmse]: https://github.com/stdlib-js/stats-incr-mrmse
+[@stdlib/stats/incr/mrmse]: https://github.com/stdlib-js/stats-incr-mrmse/tree/deno
 
-[@stdlib/stats/incr/mrss]: https://github.com/stdlib-js/stats-incr-mrss
+[@stdlib/stats/incr/mrss]: https://github.com/stdlib-js/stats-incr-mrss/tree/deno
 
-[@stdlib/stats/incr/mse]: https://github.com/stdlib-js/stats-incr-mse
+[@stdlib/stats/incr/mse]: https://github.com/stdlib-js/stats-incr-mse/tree/deno
 
-[@stdlib/stats/incr/mstdev]: https://github.com/stdlib-js/stats-incr-mstdev
+[@stdlib/stats/incr/mstdev]: https://github.com/stdlib-js/stats-incr-mstdev/tree/deno
 
-[@stdlib/stats/incr/msum]: https://github.com/stdlib-js/stats-incr-msum
+[@stdlib/stats/incr/msum]: https://github.com/stdlib-js/stats-incr-msum/tree/deno
 
-[@stdlib/stats/incr/msumabs]: https://github.com/stdlib-js/stats-incr-msumabs
+[@stdlib/stats/incr/msumabs]: https://github.com/stdlib-js/stats-incr-msumabs/tree/deno
 
-[@stdlib/stats/incr/msumabs2]: https://github.com/stdlib-js/stats-incr-msumabs2
+[@stdlib/stats/incr/msumabs2]: https://github.com/stdlib-js/stats-incr-msumabs2/tree/deno
 
-[@stdlib/stats/incr/msummary]: https://github.com/stdlib-js/stats-incr-msummary
+[@stdlib/stats/incr/msummary]: https://github.com/stdlib-js/stats-incr-msummary/tree/deno
 
-[@stdlib/stats/incr/msumprod]: https://github.com/stdlib-js/stats-incr-msumprod
+[@stdlib/stats/incr/msumprod]: https://github.com/stdlib-js/stats-incr-msumprod/tree/deno
 
-[@stdlib/stats/incr/mvariance]: https://github.com/stdlib-js/stats-incr-mvariance
+[@stdlib/stats/incr/mvariance]: https://github.com/stdlib-js/stats-incr-mvariance/tree/deno
 
-[@stdlib/stats/incr/mvmr]: https://github.com/stdlib-js/stats-incr-mvmr
+[@stdlib/stats/incr/mvmr]: https://github.com/stdlib-js/stats-incr-mvmr/tree/deno
 
-[@stdlib/stats/incr/nancount]: https://github.com/stdlib-js/stats-incr-nancount
+[@stdlib/stats/incr/nancount]: https://github.com/stdlib-js/stats-incr-nancount/tree/deno
 
-[@stdlib/stats/incr/nanmaxabs]: https://github.com/stdlib-js/stats-incr-nanmaxabs
+[@stdlib/stats/incr/nanmaxabs]: https://github.com/stdlib-js/stats-incr-nanmaxabs/tree/deno
 
-[@stdlib/stats/incr/nanmean]: https://github.com/stdlib-js/stats-incr-nanmean
+[@stdlib/stats/incr/nanmean]: https://github.com/stdlib-js/stats-incr-nanmean/tree/deno
 
-[@stdlib/stats/incr/nanmeanabs]: https://github.com/stdlib-js/stats-incr-nanmeanabs
+[@stdlib/stats/incr/nanmeanabs]: https://github.com/stdlib-js/stats-incr-nanmeanabs/tree/deno
 
-[@stdlib/stats/incr/nanmstdev]: https://github.com/stdlib-js/stats-incr-nanmstdev
+[@stdlib/stats/incr/nanmstdev]: https://github.com/stdlib-js/stats-incr-nanmstdev/tree/deno
 
-[@stdlib/stats/incr/nanmsum]: https://github.com/stdlib-js/stats-incr-nanmsum
+[@stdlib/stats/incr/nanmsum]: https://github.com/stdlib-js/stats-incr-nanmsum/tree/deno
 
-[@stdlib/stats/incr/nanskewness]: https://github.com/stdlib-js/stats-incr-nanskewness
+[@stdlib/stats/incr/nanskewness]: https://github.com/stdlib-js/stats-incr-nanskewness/tree/deno
 
-[@stdlib/stats/incr/nanstdev]: https://github.com/stdlib-js/stats-incr-nanstdev
+[@stdlib/stats/incr/nanstdev]: https://github.com/stdlib-js/stats-incr-nanstdev/tree/deno
 
-[@stdlib/stats/incr/nansum]: https://github.com/stdlib-js/stats-incr-nansum
+[@stdlib/stats/incr/nansum]: https://github.com/stdlib-js/stats-incr-nansum/tree/deno
 
-[@stdlib/stats/incr/nansumabs]: https://github.com/stdlib-js/stats-incr-nansumabs
+[@stdlib/stats/incr/nansumabs]: https://github.com/stdlib-js/stats-incr-nansumabs/tree/deno
 
-[@stdlib/stats/incr/nansumabs2]: https://github.com/stdlib-js/stats-incr-nansumabs2
+[@stdlib/stats/incr/nansumabs2]: https://github.com/stdlib-js/stats-incr-nansumabs2/tree/deno
 
-[@stdlib/stats/incr/pcorr]: https://github.com/stdlib-js/stats-incr-pcorr
+[@stdlib/stats/incr/pcorr]: https://github.com/stdlib-js/stats-incr-pcorr/tree/deno
 
-[@stdlib/stats/incr/pcorr2]: https://github.com/stdlib-js/stats-incr-pcorr2
+[@stdlib/stats/incr/pcorr2]: https://github.com/stdlib-js/stats-incr-pcorr2/tree/deno
 
-[@stdlib/stats/incr/pcorrdist]: https://github.com/stdlib-js/stats-incr-pcorrdist
+[@stdlib/stats/incr/pcorrdist]: https://github.com/stdlib-js/stats-incr-pcorrdist/tree/deno
 
-[@stdlib/stats/incr/pcorrdistmat]: https://github.com/stdlib-js/stats-incr-pcorrdistmat
+[@stdlib/stats/incr/pcorrdistmat]: https://github.com/stdlib-js/stats-incr-pcorrdistmat/tree/deno
 
-[@stdlib/stats/incr/pcorrmat]: https://github.com/stdlib-js/stats-incr-pcorrmat
+[@stdlib/stats/incr/pcorrmat]: https://github.com/stdlib-js/stats-incr-pcorrmat/tree/deno
 
-[@stdlib/stats/incr/prod]: https://github.com/stdlib-js/stats-incr-prod
+[@stdlib/stats/incr/prod]: https://github.com/stdlib-js/stats-incr-prod/tree/deno
 
-[@stdlib/stats/incr/range]: https://github.com/stdlib-js/stats-incr-range
+[@stdlib/stats/incr/range]: https://github.com/stdlib-js/stats-incr-range/tree/deno
 
-[@stdlib/stats/incr/rmse]: https://github.com/stdlib-js/stats-incr-rmse
+[@stdlib/stats/incr/rmse]: https://github.com/stdlib-js/stats-incr-rmse/tree/deno
 
-[@stdlib/stats/incr/rss]: https://github.com/stdlib-js/stats-incr-rss
+[@stdlib/stats/incr/rss]: https://github.com/stdlib-js/stats-incr-rss/tree/deno
 
-[@stdlib/stats/incr/skewness]: https://github.com/stdlib-js/stats-incr-skewness
+[@stdlib/stats/incr/skewness]: https://github.com/stdlib-js/stats-incr-skewness/tree/deno
 
-[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats-incr-stdev
+[@stdlib/stats/incr/stdev]: https://github.com/stdlib-js/stats-incr-stdev/tree/deno
 
-[@stdlib/stats/incr/sum]: https://github.com/stdlib-js/stats-incr-sum
+[@stdlib/stats/incr/sum]: https://github.com/stdlib-js/stats-incr-sum/tree/deno
 
-[@stdlib/stats/incr/sumabs]: https://github.com/stdlib-js/stats-incr-sumabs
+[@stdlib/stats/incr/sumabs]: https://github.com/stdlib-js/stats-incr-sumabs/tree/deno
 
-[@stdlib/stats/incr/sumabs2]: https://github.com/stdlib-js/stats-incr-sumabs2
+[@stdlib/stats/incr/sumabs2]: https://github.com/stdlib-js/stats-incr-sumabs2/tree/deno
 
-[@stdlib/stats/incr/summary]: https://github.com/stdlib-js/stats-incr-summary
+[@stdlib/stats/incr/summary]: https://github.com/stdlib-js/stats-incr-summary/tree/deno
 
-[@stdlib/stats/incr/sumprod]: https://github.com/stdlib-js/stats-incr-sumprod
+[@stdlib/stats/incr/sumprod]: https://github.com/stdlib-js/stats-incr-sumprod/tree/deno
 
-[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance
+[@stdlib/stats/incr/variance]: https://github.com/stdlib-js/stats-incr-variance/tree/deno
 
-[@stdlib/stats/incr/vmr]: https://github.com/stdlib-js/stats-incr-vmr
+[@stdlib/stats/incr/vmr]: https://github.com/stdlib-js/stats-incr-vmr/tree/deno
 
-[@stdlib/stats/incr/wmean]: https://github.com/stdlib-js/stats-incr-wmean
+[@stdlib/stats/incr/wmean]: https://github.com/stdlib-js/stats-incr-wmean/tree/deno
 
 <!-- </toc-links> -->
 
